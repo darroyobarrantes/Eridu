@@ -1,0 +1,205 @@
+Burial,Individual,Sub Phase,Spatial Context,Burial Method,Skeletal Material,Sex,Age,Age Cat.,Finds
+Burial 91,A,Level 0.50,"Possibly post-Ubaid burial due to lack of pottery and unusual orientation.",Libn box,"Adult? Skeleton, extended on back, face upward, hands near pelvis. Orientated SE",NaN,Adult,"Meat bones on chest, piece of reed mat near left leg with pieces of ochre paint on it."
+Burial 1,a,Level 0.70,"Ubaid period cemetery",Sealed libn box,"Adult male skeleton, extended, hands at side, face westward Orientated NW.",Male,Adult,"Pottery types: 52 on the face 13A west of the feet"
+Burial 1,b,Level 0.70,"Ubaid period cemetery",Sealed libn box,"Female skeleton, extended, hands at side, face eastward. Orientated NW.",Female,Adult,NaN
+Burial 10,NaN,Level 0.30,"Ubaid period cemetery.",NaN,"Adult? Skeleton, extended, hands at side, face slightly westward",NaN,Adult,"Pottery types: 6A, 5C, 13A. Meat bone"
+Burial 100,NaN,Level 1.80,"Ubaid period cemetery.",Buried in sand,"Child skeletal remains - skull and vertebrae only.",NaN,Child,NaN
+Burial 100,NaN,Level 1.80,"Ubaid period cemetery.",Buried in sand,"Child skeleton, body placed on right side, skull crushed, disturbed. Orientated NW.",NaN,Child,NaN
+Burial 101,NaN,Level 1.00,"Ubaid period cemetery.",Buried on a libn floor,"Adult? Skeleton, extended on back, hands near pelvis. Orientated NW.",NaN,Adult,"Pottery types: 5C, 8A, 12B,13D, 7A, 1C. (Pottery types 7A ad 1C belong to the first burial but found beneath the second corpse)"
+Burial 102,NaN,Level 0.80,"Ubaid period cemetery.",Libn box,"Adult male skeleton, extended on back, hands near pelvis, face upward.",Male,Adult,NaN
+Burial 103,NaN,Level 1.50,"Ubaid period cemetery.",Buried in sand,"Child skeleton, embryonic position, face westward. Orientated SE.",NaN,Child,NaN
+Burial 104,NaN,Level 0.80,"Ubaid period cemetery.",Libn box,"Adult? Skeleton, fractional burial, skull fallen, legs missing. Orientated NW",NaN,Adult,NaN
+Burial 105,NaN,Level 1.00,"Ubaid period cemetery.",Libn box,"Child skeleton, extended on back, face upward, hands extended. Orientated NW.",NaN,Child,"Pottery types: 13A, 1B, 5C. Two clay pellets."
+Burial 106,NaN,Level 1.50,"Ubaid period cemetery.",Sealed libn box,"Adult? Skeleton, extended slightly on left side, hands near pelvis. Orientated NW.",NaN,Adult,NaN
+Burial 106,NaN,Level 1.50,"Ubaid period cemetery.",Sealed libn box,"Adult? Skeleton, extended on back, hands near pelvis. Orientated NW.",NaN,Adult,"Pottery types: 5A, 1C, 13E, 13E, 5C, 1B Orientated NW."
+Burial 107,NaN,Level 0.55,"Ubaid period cemetery.",Libn box,"Child skeleton, seated on shoulder of female, with the right hand on her head.",NaN,Child,NaN
+Burial 107,NaN,Level 0.55,"Ubaid period cemetery.",Libn box,"Adult female skeleton, extended on back, face upward, hands extended. Orientated NW.",NaN,Adult,"Pottery types: 5C, 1B, 2B near right foot, 1B to the left of the child."
+Burial 108,NaN,Level 1.25,"Ubaid period cemetery.",Libn box,"Child skeleton, extended on back, disturbed. Orientated NW.",NaN,Child,"Pottery types: 13E, 6A, 1A. Band of red stone beads around hips."
+Burial 109,NaN,Level 1.20,"Ubaid period cemetery.",Sealed libn box,"Adult skeleton, extended on back, right hand near pelvis, face upward. Orientated NW.",NaN,Adult,"Pottery types: 2A with vertical handle, 6B, 8A."
+Burial 11,NaN,Not recorded,"Ubaid period cemetery.",Not recorded,Not recorded,NaN,Not recorded,Not recorded
+Burial 110,NaN,Level 1.30,"Ubaid period cemetery.",Libn box,"Skeleton of a 15-year-old girl, extended on back, skull fallen. Orientated NW. Frit beads at the right side of neck.",Female,15,Adolescent,"Pottery types: 1B, 5C, 13B."
+Burial 111,NaN,Level 0.60,"Ubaid period cemetery.",Libn box,"Adult female skeleton, extended on back, face upward, hands extended. Orientated NW.",Female,Adult,"Pottery types: 5C, 1B, 13C"
+Burial 112,NaN,Level 1.20,"Ubaid period cemetery.",Libn box,"Adult male skeleton, extended on back, face upward, hands near pelvis, knees slightly bent. Orientated NW.",Male,Adult,"Pottery types: 13E, 5A"
+Burial 113,NaN,Surface,"Ubaid period cemetery.",Not recorded,Not recorded,NaN,Not recorded,"Pottery types: 5A, 13D, 8A"
+Burial 114,NaN,Level 1.50,"Ubaid period cemetery.",Sealed libn box,"Child skeleton, extended on back, face westward, hands near pelvis. Orientated NW.",Child,NaN,"Pottery types: 12C, 5B. Band of two rows of frit beads around knees. Another band of the same beads around the hips."
+Burial 115,NaN,Level 0.70,"Ubaid period cemetery.",Simple inhumation,"Child skeleton, fractional, legs and chest in one place and smashed skull and arms in another.",Child,"Pottery types: 5C, 13A",NaN
+Burial 116,NaN,Level 0.50,"Ubaid period cemetery.",Libn box,"Adult? Skeleton, skull collapsed, 'displaced' (disturbed?). Orientated NW",Adult,"Pottery types: 10B",NaN
+Burial 116,NaN,Level 0.50,"Ubaid period cemetery.",Libn box,"Adult? Skeleton, extended, face upward, hands near pelvis. Orientated NW",Adult,"Pottery types: 5B, 13E",NaN
+Burial 117,NaN,Level 1.20,"Ubaid period cemetery.",Libn box,"Adult female skeleton, extended on back, hands near pelvis, face upward. Orientated NW.",Female,Adult,"Pottery types: 6A, 1B, 13E",NaN
+Burial 118,NaN,Level 1.20,"Ubaid period cemetery.",Buried in sand,"Adult male skeleton, extended on back, face slightly eastward. Orientated NW.",Male,Adult,"Pottery types: 5A, 13A",NaN
+Burial 119,NaN,Level 0.40,"Ubaid period cemetery.",Sealed libn box,"Adult? Skeleton, extended on back, face slightly westward, left arm near pelvis. Orientated NW",Adult,"Pottery types: 6A, 1B, 13C",NaN
+Burial 12,NaN,Level 1.50,"Ubaid period cemetery.",Buried in sand,"Infant skeleton, body on back, face upward. Orientated NW.",Infant,NaN,"Pottery type: 1B",NaN
+Burial 120,NaN,Level 2.25,"Ubaid period cemetery.",Libn box,"Adult? Male?, fractional. The libn box was wrongly orientated and seemed to be prepared before interment, so the body had to be placed diagonally in order to be in the right orientation.",Adult,NaN,"Bowls of three petals shape",NaN
+Burial 121,NaN,Level 0.60,"Ubaid period cemetery.",Buried in sand,"Adult female skeleton, extended on back, face upwards hands straight. Orientated NW.",Female,NaN,"Pottery types: 5A, 12A. Some 'Hajji Mohammed' sherds found in the fill of tomb. Meat bones deposited above filling." ,NaN
+Burial 122,NaN,Level 1.25,"Ubaid period cemetery.",Buried in sand,"Child skeleton, body on back, face eastward, disturbed, knees probably bent. Orientated NW.",Child,NaN,"Pottery types: 12C, 13D, 4A",NaN
+Burial 123,NaN,Level 1.50,"Ubaid period cemetery.",Libn box,"Adult male skeleton, extended on back, face slightly eastward, hands near pelvis. Orientated NW.",Male,Adult,"Pottery types: 5A, 13C, 1C. Stone dish beneath skull." ,NaN
+Burial 124,NaN,Level 1.50,"Ubaid period cemetery.",Buried in sand,"Infant skeleton, body on back, face upward. Orientated NW.",Infant,NaN,NaN,NaN
+Burial 125,NaN,Level 0.30,"Ubaid period cemetery.",On libn platform,"Child skeleton, extended on back, face upward. Orientated NW.",Child,"Pottery types: 3B, 5A",NaN
+Burial 126,NaN,Not recorded,"Ubaid period cemetery.",Not recorded,Not recorded,NaN,Not recorded,Not recorded
+Burial 127,NaN,Not recorded,"Ubaid period cemetery.",Not recorded,Not recorded,NaN,Not recorded,Not recorded
+Burial 128,NaN,Level 2.50,"Ubaid period cemetery.",Libn box,"Adult? Skeleton, extended on back, hands on legs, skull fallen. Orientated NW.",Adult,NaN,"Bowls of three petals shape",NaN
+Burial 129,NaN,Level 2.00,"Ubaid period cemetery. The floor of the libn box was paved with bitumen.",Sealed libn box,"Child skeleton, body on back, face slightly westward, hands extended, knees slightly bent. Orientated NW.",Child,"Pottery types: 4A near right shoulder. Body wrapped in matting." ,NaN
+Burial 13,NaN,Level 0.60,"Ubaid period cemetery.",Libn box,"adult? Skeleton, skull collapsed, 'displaced' (disturbed?). Orientated NW",Adult,"Pottery types: 10B",NaN
+Burial 13,NaN,Level 0.60,"Ubaid period cemetery.",Libn box,"Adult? Skeleton, extended, face upward, hands near pelvis. Orientated NW",Adult,"Pottery types: 5B, 13E",NaN
+Burial 130,NaN,Level 1.20,"Ubaid period cemetery.",Libn box,"Adult female skeleton, extended on back, hands near pelvis, face upward. Orientated NW.",Female,Adult,"Pottery types: 6A, 1B, 13E",NaN
+Burial 131,NaN,Level 1.20,"Ubaid period cemetery.",Buried in sand,"Adult male skeleton, extended on back, face slightly eastward. Orientated NW.",Male,Adult,"Pottery types: 5A, 13A",NaN
+Burial 132,NaN,Level 1.80,"Ubaid period cemetery.",Sealed libn box,"Adult female skeleton, extended on back, hands near pelvis, face upward. Orientated NW.",Female,Adult,"Pottery types: 11B, 1A, 5D, 10A near right shoulder." ,NaN
+Burial 133,NaN,Level 1.70,"Ubaid period cemetery.",Libn box,"Adult female? Skeleton, extended on back, hands near pelvis, face upward. Orientated NW.",Female,Adult,"Pottery types: 13B, 1C, 5A near left foot." ,NaN
+Burial 134,NaN,Level 1.50,"Ubaid period cemetery.",Buried in sand,"Adult female skeleton, extended on back, face upward, hands extended. Orientated NW.",Female,Adult,"Pottery types: 5C, 1C, 13E, 13E" ,NaN
+Burial 135,NaN,Level 1.25,"Ubaid period cemetery.",Buried in sand,"Adult male skeleton, extended on back, face slightly eastward, hands near pelvis. Orientated NW.",Male,Adult,"Pottery types: 13E, 3B" ,NaN
+Burial 136,NaN,Level 1.25,"Ubaid period cemetery.",Libn box,"Adult female skeleton, disturbed, body on back, legs extended but not in line with the spine, skull smashed. Orientated NW.",Female,Adult,"Pottery types: 6A, 1B, 13C" ,NaN
+Burial 137,NaN,Level 1.00,"Ubaid period cemetery.",Simple inhumation,"Adult? Female skeleton. Skull, shoulder and part of the chest are missing due to a pit cut, legs extended, right hand near pelvis. Orientated NW.",Female,Adult,"Pottery types: 13E, 1B" ,NaN
+Burial 138,NaN,Level 1.70,"Ubaid period cemetery.",Libn box,"Adult female skeleton, extended on back, face upward, right hand near pelvis, left straight. Orientated NW. Meat bones deposited above filling.",Female,Adult,"Pottery types: 6A, 1B, 13E" ,NaN
+Burial 139,NaN,Level 1.00,"Ubaid period cemetery.",Sealed libn box,"Child skeleton, extended on back, face upwards, hands extended. Orientated NW.",Child,"Pottery types: 3B, 6A, 1B" ,NaN
+Burial 140,,Level 1.00,Ubaid period cemetery.,Buried in sand,"Child skeleton, extended on back, face upward, the right knee slightly flexed. Orientated NW.",Child,,Pottery types: 6A, 2A
+Burial 141,,Level 2.30,Ubaid period cemetery.,Buried in sand,"Child skeleton, extended on back, hands straight, face upward. Orientated NW.",Child,,
+Burial 142,,Level 1.25,Ubaid period cemetery.,Buried in sand,"Adult male skeleton, extended on back, hands at sides, face upward. Orientated NW.",Male,Adult,Pottery types: 5A, 1B, 13E
+Burial 143,,Level 2.00,Ubaid period cemetery.,Buried in sand,"Adult female skeleton, extended on back, face slightly eastward. Orientated NW.",Female,Adult,Pottery types: 5A, 1B, 13A
+Burial 144,,Level 0.80,Ubaid period cemetery.,Libn box,No human remains,,,Pottery types: 5C, 8B
+Burial 145,,Level 1.00,Ubaid period cemetery.,Libn box,"Adult? Skeleton, body on back, face upward, hands near pelvis, legs bent backward. Orientated NW.",Adult,,Pottery types: 6A, 13C near shoulder.
+Burial 145,,Level 1.00,,,Libn box,Skull. Found on the right side of this burial.,,,,,
+Burial 146,,Level 0.80,Ubaid period cemetery.,Simple inhumation,"Body on left side, face eastward, left hand touching chin, right arm bent over the body, legs flexed at knees. Orientated NW.",,,,,
+Burial 147,,Level 1.25,Ubaid period cemetery.,Buried in sand,"Adult female skeleton, body on back, hands near pelvis, face upward, legs bent westward. Orientated NW.",Female,Adult,Pottery types: 8C, 7B, near right shoulder.
+Burial 148,,Level 2.00,Ubaid period cemetery.,Buried in sand,"Extended on back, skull missing. Orientated NW.",,,,Pottery types: 13C
+Burial 149,,Level 0.50,Ubaid period cemetery. On libn platform covered with sand,,,Child skeleton, extended on back, face slightly westward. Orientated NW.,Child,,Pottery types: 5C, 13E Skull of an animal near right foot.
+Burial 15,,Level 0.80,Ubaid period cemetery.,Sealed libn box,"Child skeleton, extended, hands near pelvis. Orientated NW",Child,13C,1C,5A
+Burial 150,,Level 2.00,Ubaid period cemetery.,Buried in sand,"Adult male skeleton, disturbed, body on back, hands near pelvis, skull collapsed, legs crossed. Orientated NW.",Male,Adult,Pottery types: 5C, 8A, 13D
+Burial 151,,Level 1.25,Ubaid period cemetery. Skulls missing due to pit cut.,Simple inhumation,"Adult male skeleton, body on back, legs slightly bent, hand near pelvis, skull missing. Orientated NW",Adult,See above,,
+Burial 151,,Level 1.25,,,Simple inhumation,Child skeleton, extended, head missing.,Child,,Pottery types: 5A, 9C, 1C
+Burial 152,,Level 1.50,Ubaid period cemetery.,Buried in sand,"Adult female skeleton, extended on back, hands near pelvis, face upward. Orientated NW.",Female,Adult,Pottery types: 13A, 5B, 5B.
+Burial 153,,Level 2.00,Ubaid period cemetery.,Buried in sand,"Child skeleton, body on back, face upward, legs crossed. Orientated NW.",Child,,Pottery types: 6A, 11A, 5C
+Burial 154,,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,Not recorded,Not recorded,Pottery types: 12C
+Burial 155,,Level 1.00,Ubaid period cemetery.,Libn box incomplete,"Adult skeleton, disturbed when the second corpse was interred above it. Orientated NW.",Adult,,Pottery types: 12C, 5C
+Burial 155,,Level 1.00,,,Libn box,"Adult female skeleton, extended on back, left hand near pelvis. Orientated NW.",Female,Adult,Pottery types: 13C
+Burial 156,,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,Not recorded,Not recorded,
+Burial 157,,Level 1.20,Ubaid period cemetery.,Libn box,"Child skeleton, body on back, face upward, hands near pelvis, legs slightly flexed. Orientated NW.",Child,,Pottery types: 6A, 1C, 12A
+Burial 158,,Level 1.80,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, hands straight, face slightly eastward. Orientated NW.",Female,Adult,Pottery types: 1A, 4B, 5C. Cowrie shell and two frit beads found on chest.
+Burial 159,,Level 1.20,Ubaid period cemetery.,Libn box,"'Old' male skeleton, body on back, right hand straight, left hand near pelvis, face slightly westward. Orientated NW.",Male,Adult,Pottery types: 7A, 1A, 12A
+Burial 16,,Level 0.80,Ubaid period cemetery.,Sealed libn box,"Child skeleton, extended, hands near pelvis. Orientated NW",Child,13C,1C,5A
+Burial 160,,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,Not recorded,Not recorded,
+Burial 161,,Level 2.00,Ubaid period cemetery.,Libn box,"Adult male skeleton, extended on back, right hand over pelvis, face slightly eastward. Orientated NW.",Male,Adult,Pottery types: 5C, 1B, 13D
+Burial 162,,Level 1.10,Ubaid period cemetery.,Sealed libn box,"Adult male skeleton, extended on back, hands near pelvis, face upward.",Male,Adult,Pottery types: 6B, 5C, 1B
+Burial 163,,Level 2.25,Ubaid period cemetery.,Libn box,Skull. Found to the left of the female skeleton.,See above,,
+Burial 163,,Level 0.20,Ubaid period cemetery.,Simple inhumation,"Adult female skeleton, body on back, right hands on chest, legs flexed. Orientated NW",Female,Adult,Pottery types: 6A, 12C
+Burial 169,,Level 2.00,Ubaid period cemetery.,Buried in sand,"Infant skeleton, body extended, face upward. Orientated E.",Infant,,Pottery types: 12A with two handles, 4A, 7D.
+Burial 17,,Level 0.40,,,Libn box,,,,,
+Burial 170,,Level 2.00,Ubaid period cemetery.,Buried in sand,"Adult female skeleton, extended on back, hands extended, face upward. Orientated NW",Female,Adult,Pottery types: 6A, 1B
+Burial 171,,Level 1.50,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, hands near pelvis, face upwards. Orientated NW",Female,Adult,Pottery types: 6B, 1B, 12B
+Burial 172,,Level 1.40,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, right hand near pelvis, left hand extended, face slightly eastward. Orientated NW.",Female,Adult,Pottery types: 6A, 1B, 13C, 13D
+Burial 173,,Level 2.00,Ubaid period cemetery.,Buried in sand,"Adult female skeleton, extended on back, hands straight, face slightly eastward, the right femur out of position and laid across the pelvis. Orientated NW",Female,Adult,Pottery types: 7A, 1B
+Burial 174,,Level 1.80,Ubaid period cemetery.,Libn box,"Child skeleton, extended on back. Orientated NW",Child,,Pottery types: 5A, 4A, 7A with incisions inside. 3cm bands of frit beads below knees.
+Burial 175,,Level 1.40,Ubaid period cemetery.,Sealed libn box,"Adult female skeleton, extended on back, hands near pelvis, face westward. Orientated NW",Female,Adult,Pottery types: 13A, 7A
+Burial 176,,Level 1.40,Ubaid period cemetery.,On libn floor,"Child skeleton, body on back, face upward. Orientated NW",Child,,Pottery types: 4A
+Burial 177,,Level 1.40,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, right arm bent over the chest, left arm straight. Orientated NW",Female,Adult,,
+Burial 178,,Level 1.60,Ubaid period cemetery.,Not recorded,"Adult female skeleton, extended on back, hands straight, face slightly eastward. Orientated NW",Female,Adult,Pottery types: 8C
+Burial 179,,Level 1.30,Ubaid period cemetery.,Libn box,"Young female skeleton, extended on back, right hand on pelvis, left extended, face upward. Orientated NW",Female,Adult,Pottery types: 5C, 13E, 1B
+Burial 18,,Level 0.60,Ubaid period cemetery.,Libn box,"Adult female skeleton, body slightly turned on left side, right hand near pelvis. Orientated NW",Female,Adult,,
+Burial 18,,Level 0.60,,,Libn box,"Adult male skeleton, body slightly turned on right side, right hand extended, left hand on the pelvis. Orientated NW",Male,Adult,Pottery types: 8A, 8A
+Burial 180,,Level 1.40,Ubaid period cemetery.,Sealed libn box,"Child? Skeleton, body on back, face westward, legs flexed. Orientated NW.",Child,Pottery types: 5A, 13E
+Burial 181,,Level 1.00,Ubaid period cemetery.,Libn box,"Skeleton of a 'youth', extended on back. Orientated NW.",Adolescent,5A, 13E, 12C,Fragments of a large pottery bowl found laid on the chest (chest of which skeleton not recorded)
+Burial 181,,Level 1.00,,,Libn box,Skull near the left shoulder.,See above,,
+Burial 19,,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,Not recorded,Not recorded,Pottery type 39C?
+Burial 190,NaN,Surface,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 191,NaN,Level 1.50,Ubaid period cemetery.,Libn box,Infant skeleton, body on back.,NaN,NaN,NaN,Orientated NW.
+Burial 192,NaN,Level 1.80,Ubaid period cemetery.,Libn box,Adult? Skeleton, extended on back, right arm bent on body, left arm straight, face eastward.,NaN,Adult,NaN,Orientated NW.
+Burial 193,NaN,Level 1.30,Ubaid period cemetery.,Libn box,Adult? Skeleton, extended on back, face upward, arms straight. Orientated NW.,NaN,Adult,NaN,Pottery types: 5C, 1B, 13C, 13A
+Burial 2,NaN,Surface,Ubaid period cemetery.,On libn floor,Adult? Skeleton- bad preservation. Extended, hands near pelvis, face westward. Orientated NW.,NaN,Adult,NaN,Pottery types: NaN
+Burial 20,NaN,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Pottery type 5C?
+Burial 22,NaN,Level 0.45,Ubaid period cemetery.,Libn box,Adult female skeleton, extended, face slightly westward, arms and legs in disorder. Orientated NW.,Female,Adult,NaN,Pottery types: 3B, 5A, 1B
+Burial 23,NaN,Level 0.70,Ubaid period cemetery.,Libn box,Adult male skeleton, extended, slightly on right side, face westward. Orientated NW.,Male,Adult,NaN,Pottery types: 8A, 5A, 13A, 6A, 6A, 12C. One of the dishes were placed underneath the female skeleton, the other vessels were near the feet of both.
+Burial 24,NaN,Level 1.00,Ubaid period cemetery.,The body of the female partially covered that of the male.,Simple inhumation?,Adult female skeleton, extended on back, face eastward, hand near pelvis.,Female,Adult,NaN,Pottery types: 12B
+Burial 24,NaN,Level 1.00,Ubaid period cemetery.,Simple inhumation?,Adult male skeleton, extended on back.,Male,Adult,NaN,Pottery types: 5C, 13A
+Burial 25,NaN,Level 1.20m,Ubaid period cemetery.,Buried in sand,Adult female skeleton, extended on back, hands near pelvis. Orientated NW.,Female,Adult,Pottery types: 7A, 12B near the right foot.
+Burial 26,NaN,Surface,Ubaid period cemetery.,Simple inhumation?,Bad preservation. Skeleton extended face eastward. Orientated NW,NaN,NaN,Pottery types: 2A, 1A, 7A
+Burial 27,NaN,Surfaces,Ubaid period cemetery.,Simple inhumation?,Bad preservation. Orientated NW.,NaN,NaN,Pottery types: 2A, 1A, 7A
+Burial 28,NaN,Level 0.40,Ubaid period cemetery.,Libn box,Child skeleton, c.14 years old, extended, face slightly eastward. Orientated NW,14,Adolescent,Pottery types: 5C, 1B, 2A
+Burial 29,NaN,Level 0.40,Ubaid period cemetery.,Buried in sand,Child skeleton, body on back, legs slightly flexed. Orientated NW.,Child,NaN,Pottery types: 5A, 12B
+Burial 3,NaN,Level,Ubaid period cemetery.,Libn box,Adult male, extended on back, hand near pelvis, face westward. Orientated NW.,Male,Adult,Pottery types: 5A, 12B
+Burial 3,NaN,Level,Ubaid period cemetery.,Libn box,Adult female skeleton, extended on right side, face westward. Orientated NW.,Female,Adult,Pottery types: 8C, 12B
+Burial 30,NaN,Level 0.15,Ubaid period cemetery.,Sealed libn box,Female adult skeleton, extended, right hand on body, head collapsed. Orientated NW,Female,Adult,Pottery types: 5A, 13D, 13A, 1C, 12C, 1B. The two cups (type 1C & 1B) were found inserted in the mouth of the two jars (types 12A & 13D). Jar type 12A with the cup in its mouth lay near the right shoulder of the female. Other vessels lay near the feet of the female skeleton. Fish and meat bones.
+Burial 30,NaN,Level 0.15,Ubaid period cemetery.,Sealed libn box,Male adult skeleton, extended, legs crossed.,Male,Adult,See above.
+Burial 31,NaN,Level 0.60,Ubaid period cemetery.,Sealed libn box,Adult? Skeleton, body on left side. Orientated NW.,NaN,Adult,Pottery types: 5A, 5C, 13E, 13E, 13E. Two dishes and on jar was placed on one side of the feet and two more jars on the other side.
+Burial 31,NaN,Level 0.60,Ubaid period cemetery.,Sealed libn box,Adult? Skeleton, extended on the back. Orientated NW,NaN,Adult,See above.
+Burial 32,NaN,Level 1.10,Ubaid period cemetery.,Simple inhumation,Adult? Skeleton, extended on back, face upwards. Orientated NW.,NaN,Adult,NaN
+Burial 33,NaN,Level 1.20,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 34,NaN,Level 1.50,Ubaid period cemetery.,Sealed libn box,Female adult skeleton, extended on back, hands near pelvis, face upward. Orientated NW.,Female,Adult,Pottery types: 5C, 1A, 13E. Two meat bones near the head.
+Burial 35,NaN,Level 0.40,Ubaid period cemetery.,Libn box,Child skeleton, extended on back. Orientated NW,Child,NaN,NaN,NaN
+Burial 36,NaN,Level 1.40,Ubaid period cemetery.,Grave placed over an older burial.,Simple inhumation?,Skeleton extended on back, hands near pelvis, face upward. Orientated NW.,NaN,NaN,Pottery types: 5C, 2A
+Burial 37,NaN,Level 0.20,Ubaid period cemetery.,Libn box,Skeleton extended. Orientated NW. Pottery types: 5A, 2B,NaN,NaN,Pottery types: 5A, 2B
+Burial 38,NaN,Level 0.60,Ubaid period cemetery.,Libn box,Child skeleton, extended, slightly on the left side. Orientated NW,NaN,NaN,Pottery types: NaN
+Burial 39,NaN,Level 1.10,Ubaid period cemetery.,Sealed libn box,Child skeleton, c14 years old, extended on back, face upward. Orientated NW,14,Adolescent,Pottery types: 5A, 6A, 13C, 1A near the right arm. Bead of rock crystal on the lower jaw.
+Burial 4,NaN,Surface,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 40,NaN,Level 0.50,Ubaid period cemetery.,Simple inhumation?,Child skeleton, extended on back, body on the back. Orientated NW,12,Child,Pottery types: 5C, 11A, 13E, 9A. Three beads of green stone near the lower jaw. A string of obsidian beads, calcite and shell around the waist.
+Burial 41,NaN,Level 1.50,Ubaid period cemetery.,Libn box,Adult male skeleton, extended on back, face eastwards. Orientated NW.,Male,Adult,Pottery types: 5C, 1C, 13C. The dish was beside the pelvis and the jar nearby. Meat bones were placed on the box after the body and vessels were covered with earth.
+Burial 42,NaN,Level 1.00,Ubaid period cemetery.,Libn box,Adult? Skeleton, extended on back, right hand extended, left hand on pelvis, face slightly eastward. Orientated NW.,NaN,Adult,Pottery types: 5C, 1B, 13E near the right leg, 13B.
+Burial 43,NaN,Level 1.20,Ubaid period cemetery.,Libn box,Adult? Skeleton, extended on back, left hand on pelvis, face slightly eastward.,NaN,Adult,Pottery types: 5C, 1B, 13C
+Burial 44,NaN,Level 0.70,Ubaid period cemetery.,Libn box,Child skeleton, extended on back, legs flexed. Orientated NW,Child,NaN,Pottery types: 13E near head
+Burial 45,NaN,Level 0.60,Ubaid period cemetery.,Libn box,Infant skeleton, extended on back, head facing west. Orientated NW,Infant,NaN,NaN
+Burial 46,NaN,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 47,NaN,Level 0.75,Ubaid period cemetery.,Libn box,Adolescent skeleton, extended on back, right hand on pelvis, left hand extended, face upward. Orientated NW,Adolescent,NaN,Pottery types: 6A, 12C, 11A, 13A
+Burial 48,NaN,Level 0.35,Ubaid period cemetery.,Libn box,Child skeleton, body on back face westward. Orientated NW,Child,NaN,Pottery type: 5C, 8B, 1B
+Burial 49,NaN,Surface,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 5,NaN,Surface,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 50,NaN,Level 1.70,Ubaid period cemetery.,Buried in sand,Child skeleton, c.12 years old, extended on back. Orientated NW,12,Child,Pottery types: 4A
+Burial 51,NaN,Level 1.00,Ubaid period cemetery.,Libn box,Skeleton of an elderly female, extended on back, hands on pelvis, face slightly westward. Orientated NW,Adult,NaN,Pottery types: 5C, 1A, 13E, 12A
+Burial 52,NaN,Level 1.70,Ubaid period cemetery.,Libn box,Adult female skeleton, extended on back, face upwards, hands on pelvis. Orientated NW,Female,Adult,Pottery types: 5C, 11A, 13A, 13D
+Burial 53,NaN,Level 0.80,Ubaid period cemetery.,Libn box,Child skeleton, extended, slightly on the left side, right hand on pelvis, face upward. Orientated NW,Child,NaN,Pottery types: 7A, 13A
+Burial 54,NaN,Level 1.20,Ubaid period cemetery.,Libn box,Child skeleton, extended on back. Orientated NW.,Child,NaN,Pottery types: 6A, 1C, 11A
+Burial 55,NaN,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 56,NaN,Level 1.90,Ubaid period cemetery.,Libn box,Child skeleton, body on back knees, slightly flexed, face upward.,Child,NaN,Pottery types: 12C near right shoulder
+Burial 57,NaN,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 58,NaN,Level 1.00,Ubaid period cemetery.,Libn box,Skeleton of elderly female. Extended on back, legs missing. Orientated NW,Adult,NaN,Pottery types: 5A, 1C, 1B, 8B, 12A
+Burial 59,NaN,Level 1.70,Ubaid period cemetery.,Libn box,Adult male skeleton, extended, hands on pelvis, face westward. Orientated NW,Male,Adult,Pottery types: 6A, 13E
+Burial 6,NaN,Surface,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 60,NaN,Surface,Ubaid period cemetery.,Simple inhumation?,Adult? Skeleton, extended, face upward. Orientated NW,NaN,Adult,Pottery types: 5A and 1C to the west of the feet, 8C east of the body.
+Burial 61,NaN,Level 0.65,Ubaid period cemetery.,Buried in sand,Child skeleton, c.12 years old, extended on back. Orientated NW,12,Child,Pottery types: 4A
+Burial 62,NaN,Level 0.50,Ubaid period cemetery.,Libn box,Adult female skeleton, body on back, hands on pelvis, knees bent, skull collapsed. Orientated NE.,Female,Adult,Pottery types: 5C, 13A, 1B. Two beads of red stone on both sides of the jaw.
+Burial 63,NaN,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 64,NaN,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,NaN,NaN,NaN,Not recorded
+Burial 65,NaN,Level 1.00,Ubaid period cemetery.,Libn box,Skeleton extended on back, left hand on pelvis Orientated NW.,NaN,Adult,Pottery types: 7B, 8B. Bodies wrapped in a mat.
+Burial 66,NaN,Level 0.50,Ubaid period cemetery.,Libn box,Child skeleton, extended on back, right hand on pelvis, left hand extended. Orientated NW,Child,NaN,Pottery types: 5A, 1C, 13E
+Burial 67,NaN,Level 0.50,Ubaid period cemetery.,Libn box,"Child skeleton, extended on back, face upward, left arm bent, the right arm straight. Orientated NW",Child,NaN,"Pottery types: 13D, 7C, 1B"
+Burial 68,NaN,Level 0.70,Ubaid period cemetery.,Sealed libn box,"Adult female skeleton, face slightly westward, hands on pelvis. Band 6.5cm wide of white and black beads around the body near the pelvis. Figurine (no. 602) found near the left shoulder.",Female,NaN,"Pottery types: 5A, 1B, 13E"
+Burial 69,NaN,Level 0.50,Ubaid period cemetery.,Buried on a clay floor,"Child skeleton, extended on back. Orientated NW.",Child,NaN,"Pottery types: 5A, 1B, 13E"
+Burial 7,NaN,Level 0.55,Ubaid period cemetery.,Sealed libn box,"Child skeleton, extended, face upward. Orientated NW",Child,NaN,NaN
+Burial 70,NaN,Level 1.10,Ubaid period cemetery.,Buried in sand,"Adult female skeleton, extended on back, right hand extended, left hand on pelvis, face slightly westward. Orientated NW.",Female,NaN,"Pottery types: 5A, 13D"
+Burial 71,NaN,Level 1.25,Ubaid period cemetery. The female was buried after the male.,Libn box,"Adult female skeleton, extended on back, hands on pelvis. Orientated NW.",Female,NaN,"Pottery types: 5C, 12B"
+Burial 71,NaN,Level 1.25,Ubaid period cemetery. The male was buried before the female.,Libn box,"Adult male skeleton, extended on back, face upward. Orientated NW.",Male,NaN,"Pottery types: 6A with partition, 1B"
+Burial 72,NaN,Level 1.70,Ubaid period cemetery.,Libn box,"Adult male skeleton, extended on back, face slightly eastward. Orientated NW.",Male,NaN,"Pottery types: 6B, 1B, 1B"
+Burial 72,NaN,Level 1.70,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, face slightly eastward. Orientated NW",Female,NaN,NaN
+Burial 74,NaN,Surface,Ubaid period cemetery.,Not recorded,Not recorded,Not recorded,NaN,"Pottery types: 5A?"
+Burial 75,NaN,Surface,Ubaid period cemetery.,Not recorded,Not recorded,Not recorded,NaN,"Pottery types: 12A?"
+Burial 76,NaN,Level 1.00,Ubaid period cemetery.,Buried on a clay floor,"Adult? Skeleton, extended on back, face eastward, left arm straight, right arm flexed on abdomen. Orientated NW.",Adult,NaN,"Pottery types: 5A, 1C, 13A"
+Burial 77,NaN,Level 0.85,Ubaid period cemetery.,Buried on a libn floor,"Child skeleton, body on back, legs slightly flexed, left arm straight, right arm flexed on body. Orientated NW.",Child,NaN,NaN
+Burial 78,NaN,Level 0.85,Ubaid period cemetery.,Buried on a libn floor,"Adult? skeleton, extended on back, face upward, hands near pelvis. Orientated NW",Adult,NaN,"Pottery types: 4A, 4A, 12B, 11A"
+Burial 78,NaN,Level 0.85,Ubaid period cemetery.,Buried on a libn floor,"Adult? Skeleton, disturbed.",Adult,NaN,NaN
+Burial 79,NaN,Level 1.80,Ubaid period cemetery.,Buried in sand,"Skeleton extended on back. Orientated NW",NaN,NaN,"Pottery types: 6A, 1C"
+Burial 8,NaN,Level 0.80,Ubaid period cemetery.,Libn box,"Adult? Skeleton, legs slightly bent, hands meeting at the pelvis, face upward. Orientated NW.",Adult,NaN,"Meat bone on the breast."
+Burial 80,NaN,Level 0.50,Ubaid period cemetery.,Libn box,"Skeleton of a 'girl', extended on back. Orientated NW. Necklace of calcite around the neck. Necklace of yellow, white and black beads around the body near the hips.",Female,NaN,"Pottery types: 13A, 5A, 1B."
+Burial 81,NaN,Level 1.00,Ubaid period cemetery.,Libn box,"Adult? Skeleton, extended on back, face upward, arms extended by the sides. Orientated NW",Adult,NaN,"Pottery types: 6A, 12A, 1B"
+Burial 82,NaN,Level 1.00,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, legs crossed, hands on pelvis, face upward. Orientated NW.",Female,NaN,"Pottery types: 6B, 12B, 1B, 13D"
+Burial 83,NaN,Level 0.60,Ubaid period cemetery.,Buried on a libn floor,"Adult? Skeleton, extended on back, hands one over another near the pelvis. Orientated NW",Adult,NaN,"Pottery types: 5A, 13A, 13A, 12B"
+Burial 83,NaN,Level 0.60,Ubaid period cemetery.,Buried on a libn floor,"Adult male, body on back, face eastward, hands near pelvis, legs flexed.",Male,NaN,"Pottery types: 6A, 13A"
+Burial 84,NaN,Level 0.60,Ubaid period cemetery.,Buried on a libn floor,Not recorded,Not recorded,"Pottery types: 5A?"
+Burial 85,NaN,Not recorded,Ubaid period cemetery.,Not recorded,Not recorded,Not recorded,"Pottery types: 12A?"
+Burial 86,NaN,Level not recorded,Ubaid period cemetery.,Libn box,"Adult? Skeleton, extended on back, hands on pelvis.",Adult,NaN,"Pottery types: 13C, 6A, 1B"
+Burial 87,NaN,Level 0.30,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, hands near pelvis. Orientated NW",Female,NaN,"Pottery types: 5A, 13E"
+Burial 87,NaN,Level 0.30,Ubaid period cemetery.,Libn box,"Adult male, extended on back, hands on chest. Orientated NW",Male,NaN,"Pottery types: 4A"
+Burial 88,NaN,Level 0.60,Ubaid period cemetery.,Buried on a libn floor,"Adult male skeleton, extended on back, face upward, right leg slightly flexed. Orientated NW",Male,NaN,"Pottery types: 1B, 1B, 13C"
+Burial 88,NaN,Level 0.60,Ubaid period cemetery.,Buried on a libn floor,"Adult female skeleton, extended on back, right arm straight, left hand on pelvis, face westward. Orientated NW",Female,NaN,"Pottery types: 2A"
+Burial 89,NaN,Level 0.40,Ubaid period cemetery.,Libn box,"Child skeleton, extended, face upward. Orientated NW",Child,NaN,NaN
+Burial 9,NaN,Level 1.50,Ubaid period cemetery.,Buried on pure sand, lump of clay beneath the head,"Adult? Skeleton, body on back, legs slightly bent, hands meeting at the pelvis, face upward.",Adult,NaN,NaN,"Stone jar 35cm from right of box of grave 22. Probably of Uruk period."
+Burial 90,NaN,Level 0.50,Ubaid period cemetery.,Libn box,"Adult male skeleton, extended on back, face upward. Orientated NW.",Male,NaN,"Pottery types: 5A, 4A, 8C, 12B, 13A, 6B with ring base."
+Burial 90,NaN,Level 0.50,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, face upward, hands near pelvis. Orientated NW.",Female,NaN,NaN
+Burial 92,NaN,Level 0.80,Ubaid period cemetery.,Buried on a libn floor,"Child skeleton, disturbed, skull turned. Orientated NW.",Child,NaN,"Pottery types: 4B, 6A, 8C"
+Burial 92,NaN,Level 0.80,Ubaid period cemetery.,Buried on a libn floor,"Child skeleton, embryonic position, face eastward. Orientated NW.",Child,NaN,NaN
+Burial 93,NaN,Level 0.60,Ubaid period cemetery.,Libn box,"Child skeleton, extended on back, face upward, hands below pelvis. Orientated NW",Child,"Pottery types: 5A, 11A, 13E, 13E. Animal jaw east of the head"
+Burial 94,NaN,Level 1.50,Ubaid period cemetery.,Buried in sand,"Adult? Skeleton, body on back, legs flexed, face upward covered with a large fragment of an Ubaid bowl.",Adult,"Skeleton covered with a large fragment on an Ubaid bowl."
+Burial 95,NaN,Level 1.50,Ubaid period cemetery.,Libn box,"Adult? Skeleton, extended on back, hands below pelvis.",Adult,NaN,NaN
+Burial 96,NaN,Level 0.40,Ubaid period cemetery.,Libn box,"Adult female skeleton, extended on back, face upward, left hand near pelvis.",Female,NaN,"Pottery types: 13A, 2B"
+Burial 96,NaN,Level 0.40,Ubaid period cemetery.,Libn box,"Adult male skeleton, extended on back, face upward, hands below pelvis. Orientated NW",Male,NaN,"Pottery types: 6A with ring base."
+Burial 97,NaN,Level 0.40,Ubaid period cemetery.,Not recorded,"Adult? Skeleton, extended on back, slightly disturbed. Orientated NW",Adult,NaN,"Pottery types: 2B"
+Burial 97,NaN,Level 0.40,Ubaid period cemetery.,Not recorded,"Sixteen Adult? skulls and 'two portions of a third corpse'.",Adult,NaN,NaN
+Burial 98,NaN,Level 0.90,Ubaid period cemetery.,Buried in sand,"Child skeleton, body disturbed, originally extended. Orientated NW",Child,NaN,"Pottery types: 13E, 6B"
+Burial 99,NaN,Level 0.40,Ubaid period cemetery.,Buried in sand,"Child skeleton, extended, right hand on pelvis, face eastward.",Child,NaN,NaN
+Burial 21,NaN,Level 0.10,Buried above sealed libn,Simple inhumation?,"Adult male skeleton, extended, skull collapsed, left shoulder, ceramic dish and a mace head near the skull. Probably of Uruk period.",Male,NaN,NaN,""
