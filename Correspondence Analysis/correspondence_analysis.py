@@ -60,19 +60,20 @@ for i, txt in enumerate(df.columns):
 ax.legend()
 
 # Guardar el gráfico como un archivo PNG
-plt.savefig('Pottery_correspondence_analysis.png', dpi=1080)  # Ajusta 'dpi' para cambiar la resolución de la imagen
+plt.savefig('Pottery_correspondence_analysis.png', dpi=2160)  # Ajusta 'dpi' para cambiar la resolución de la imagen
 
 # Mostrar el gráfico
 plt.show()
 
 
 
-df = pd.read_csv('level_sex_sample.csv',  usecols=lambda x: x != 'Unnamed: 0')
-df = df.set_index('Level')
-df = df.fillna(df.mean())
+df2 = pd.read_csv('level_sex_sample.csv',  usecols=lambda x: x != 'Unnamed: 0')
+df2 = df2.set_index('Sex')
+df2 = df2.fillna(df.mean())
 
-if (df < 5).any().any():
-    df = (df + 1) * 5
+
+if (df2 < 5).any().any():
+    df2 = (df2 + 1) * 5
 
 # Realizar el análisis de correspondencias
 ca = prince.CA(
@@ -80,14 +81,14 @@ ca = prince.CA(
     n_iter=10,
     copy=True,
     check_input=True,
-    engine='scipy',
+    engine='sklearn',# Asegúrate de que el motor sea 'fbpca', 'scipy' o 'sklearn'
     random_state=42
 )
-ca = ca.fit(df)
+ca = ca.fit(df2)
 
 # Obtener las coordenadas de las filas y las columnas
-row_coords = ca.row_coordinates(df)
-col_coords = ca.column_coordinates(df)
+row_coords2 = ca.row_coordinates(df)
+col_coords2 = ca.column_coordinates(df0)
 
 # Crear una figura y un conjunto de subtramas
 fig, ax = plt.subplots()
@@ -101,16 +102,16 @@ ax.scatter(row_coords[0], row_coords[0], color='red', label='Level', s=1)
 ax.scatter(col_coords[0], col_coords[0], color='blue', label='Sex', s=1) 
 
 # Añadir etiquetas a los puntos
-for i, txt in enumerate(df.index):
+for i, txt in enumerate(df2.index):
     ax.annotate(txt, (row_coords[0][i], row_coords[0][i]), fontsize=3)
-for i, txt in enumerate(df.columns):
+for i, txt in enumerate(df2.columns):
     ax.annotate(txt, (col_coords[0][i], col_coords[0][i]), fontsize=3)
 
 # Añadir una leyenda
 ax.legend()
 
 # Guardar el gráfico como un archivo PNG
-plt.savefig('level_sex_correspondence_analysis.png', dpi=1080)
+plt.savefig('level_sex_correspondence_analysis.png', dpi=2160)
 
 # Mostrar el gráfico
 plt.show()

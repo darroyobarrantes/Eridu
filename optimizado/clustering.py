@@ -44,7 +44,7 @@ enc = OneHotEncoder(handle_unknown='ignore')
   #from catboost import CatBoostClassifier
 
 #!pip install kmodes
-#from kmodes.kmodes import KModes
+from kmodes.kmodes import KModes
 import matplotlib.pyplot as plt
 # %matplotlib inline
 
@@ -99,13 +99,6 @@ def clean_text(text):
 df['ID'] = df['Grave'].astype(str) + df['Individual']
 df['Grave_ID'] = df['Grave'].astype(str)+"_"+df['ID'].astype(str)
 df.set_index('Grave_ID', inplace=True)
-
-# Rellenar los valores faltantes en 'Level', 'Orientation' y 'Type' con el valor anterior en el mismo 'Grave'
-for column in ['Level', 'Orientation', 'Type']:
-    df[column] = df.groupby('Grave')[column].ffill()
-
-
-
 
 #Creates variable for burial type
 df['Type'] = df['Type'].str.lower()
@@ -280,7 +273,6 @@ def category_body(text):
                     break  # Salir del bucle interno si hay una coincidencia
             if replaced:
                 break  # Salir del bucle externo si se hizo una sustitución
-
         else:
             modified_array.append(item)
 
@@ -360,12 +352,6 @@ df = pd.concat([df, df1[['body','hands','face','arm','skull','leg']]], axis=1).d
 
 df.columns
 
-
-
-
-
-
-
 #Separates multiple items into dummies with unique pottery types
 df2 = df[['Pottery types']]
 
@@ -401,66 +387,14 @@ df2["Pottery types"] = finds_match
 df2=df2.join(df[['Level']])
 df2=df2.set_index('Level')
 
-
 df2 = df2['Pottery types'].str.get_dummies(sep=';')
 df2.columns = df2.columns.str.strip()
 #reverse dummies into columns
 df2 = df2.replace(1, pd.Series(df2.columns, df2.columns))
 df2 = df2.applymap(lambda x: 1 if isinstance(x, str) else x)
 
-df_pottery=df2
+df_pottery=df2.join(df[['Level']])
 df_pottery.to_csv("pottery_sample.csv")
-
-# Separar los valores en la columna 'Pottery types'
-df_pottery['Pottery types'] = df_pottery['Pottery types'].apply(lambda x: x.split(';') if pd.notna(x) and isinstance(x, str) else [])
-
-
-# Crear un diccionario para contar la cantidad de cada tipo de cerámica por nivel
-ceramic_count = {}
-
-# Iterar sobre las filas del DataFrame
-for index, row in df_pottery.iterrows():
-    level = row['Level']
-    pottery_types = row['Pottery types']
-    
-    # Ignorar las filas con valores nulos o listas vacías
-    if pd.notna(level) and pottery_types:
-        # Agregar las cerámicas al diccionario
-        for ceramic in pottery_types:
-            ceramic_count[(level, ceramic)] = ceramic_count.get((level, ceramic), 0) + 1
-# Convert the dictionary to a list of tuples
-data_list = [(level, ceramic, count) for (level, ceramic), count in ceramic_count.items()]
-
-# Create a DataFrame from the list
-columns = ['Level', 'Ceramic', 'Count']
-df_pottery_count  = pd.DataFrame(data_list, columns=columns)
-# Convertir la columna 'Ceramic' en variables dummy
-# Usar pivot para reorganizar el DataFrame
-pivot_df = df_pottery_count.pivot(index='Level', columns='Ceramic', values='Count')
-
-# Rellenar NaN con 0 (si hay celdas sin valor)
-pivot_df = pivot_df.fillna(0)
-
-# Resetear el índice para obtener un DataFrame plano
-pivot_df.reset_index(inplace=True)
-pivot_df.to_csv("pottery_sample.csv")
-
-
-
-
-
-sex_dummies = pd.get_dummies(df['Sex'], prefix='Sex')
-sex_dummies = sex_dummies.join(df[['Level']])
-sex_dummies = sex_dummies.set_index('Level')
-sex_dummies = sex_dummies.groupby('Level').sum().reset_index()
-sex_dummies = sex_dummies.set_index('Level')
-# Obtén dummies de la columna 'Sex'
-
-sex_dummies.to_csv("level_sex_sample.csv")
-
-
-
-
 
 #Separates multiple items into dummies with unique body positions and burial types
 df3 = df[['body','hands','face','arm','skull','leg', 'Burial Type']]
