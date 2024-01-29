@@ -25,7 +25,7 @@ Original file is located at
 #nltk.download('punkt')
 #!pip install sklearn
 #!pip install langdetect
-
+import datetime
 # Import required libraries
 import numpy as np
 import re #
@@ -49,6 +49,11 @@ import matplotlib.pyplot as plt
 # %matplotlib inline
 
 
+# Package imports
+import seaborn as sns
+import pandas as pd
+import missingno as msno
+#%matplotlib inline
 
 # Set random seed
 np.random.seed(42)
@@ -64,12 +69,15 @@ start = time.time()
 #Upload Safar's list of 193 tombs
 #The source of the data must be changed according to where it is stored.
 ###################################################################################################
-file = pd.read_csv(r'SafarTombs.csv')
+file = pd.read_csv(r'SafarTombs_rev.csv')
 ###################################################################################################
 
 #Create a copy of the data
 df = file
 len(df)
+
+#Missingno
+#msno.matrix(df)
 
 """## 3. Feature Engineering
 In this section, the original data is split and reconfigured in an adequate format for the model to ingest.
@@ -108,13 +116,15 @@ df.set_index('Grave_ID', inplace=True)
 for column in ['Level', 'Orientation', 'Type']:
     df[column] = df.groupby('Grave')[column].ffill()
 
-
+df['Level'] = df['Level'].replace('Surface', 0)
 
 
 #Creates variable for burial type
 df['Type'] = df['Type'].str.lower()
 df['Burial Type'] = pd.np.where(df['Type'].str.contains("libn box"), "Libn box", df['Type'])
-df['Burial Type'] = pd.np.where(df['Type'].str.contains("floor"), "Libn floor", df['Burial Type'])
+df['Burial Type'] = pd.np.where(df['Type'].str.contains("libn floor"), "Libn floor", df['Burial Type'])
+df['Burial Type'] = pd.np.where(df['Type'].str.contains("platform"), "Libn floor", df['Burial Type'])
+df['Burial Type'] = pd.np.where(df['Type'].str.contains("clay floor"), "Clay floor", df['Burial Type'])
 df['Burial Type'] = pd.np.where(df['Type'].str.contains("shaft"), "Shaft tomb", df['Burial Type'])
 df['Burial Type'] = pd.np.where(df['Type'].str.contains("sand"), "In sand", df['Burial Type'])
 df['Burial Type'] = pd.np.where(df['Type'].str.contains("debris"), "In debris", df['Burial Type'])
@@ -175,10 +185,14 @@ def category_body(text):
            'hands beside legs',
            'hands by the sides',
            'hands at side',
+           'hands at sides',
+           'hands straight',
        ],
        'hands crossed on pelvis': [
            'hands one over another near the pelvis',
+           'hands one over another near pelvis',
            'hands meeting at the pelvis',
+           'hands meeting at pelvis',
        ],
        'hands upwards': [
            'upwards hands'
@@ -187,29 +201,71 @@ def category_body(text):
            'right hand near chin',
            'left hand touching chin'
        ],
+       'hands on chest': [
+           'hands on chest',
+           'right hands on chest',
+       ],
+       'hand on head': [
+           'right hand on her head',
+       ],
+       
        'right hand near pelvis': [
            'right hand on pelvis',
            'right hand near pelvis',
+           'right hand over pelvis',
            'right hand flexed on pelvis',
        ],
+       'right hand beside leg': [
+           'right hand extended',
+           'right hand at side',
+           'right hand straight',
+       ],
+       
        'left hand near pelvis': [
            'left hand on pelvis',
+           'left hand-on pelvis',
+           'left hand on pelvic',
            'left hand near pelvis',
            'left hand on pelvis orientaded nw',
        ],
        'left hand beside leg': [
            'left hand extended',
            'left hand at side',
+           'left hand beside leg',
+           'left hand straight',
        ],
-       'right hand beside leg': [
-           'right hand extended',
-           'right hand at side',
+       ######################### Arms #########################################
+       'arms in disorder': [
+           'arms in disorder',
        ],
-       
+       'left arm flexed': [
+           'left arm flexed',
+           'left arm bent',
+           'left arm near pelvis',
+       ],
+       'right arm flexed': [
+           'right arm flexed',
+           'right arm flexed on abdomen',
+           'right arm flexed on body',
+           'right arm bent on body',
+           'right arm bent over the body',
+           'right arm bent over the chest',
+       ],
+       'right arm straight': [
+           'right arm straight',
+       ],
+       'left arm straight': [
+           'right arm straight',
+       ],
+       'arms straight': [
+           'arms straight',
+           'arms extended by the sides',
+       ],
        ######################### face #########################################
         'face upward': [
             'face',
             'face upward',
+            'face upward covered with a large fragment of Ubaid bowl',
         ],
         'face eastward': [
             'face eastward',
@@ -221,19 +277,26 @@ def category_body(text):
             'face slightly westward',
             'face slightly westwards',
             'head slightly westward',
+            'head facing west',
         ],
         ######################### skull #########################################
         'skull collapsed': [
             'skull collapsed',
-            'skull crushed',
-            'skull fallen',
-            'skull smashed',
             'head collapsed',
+            'skull crushed',
+            'head crushed',
+            'skull fallen',
+            'head fallen',
+            'skull smashed',
+            'head smashed',
             'skull collapsed, displaced',
+            'smashed skull',
         ],
         'skull missing': [
             'skull missing',
             'head missing',
+            'face missing',
+            'skull, shoulder and part of the chest are missing due to an old pit',
         ],
         'skull to the right': [
             'skull found on the right side of this burial',
@@ -242,7 +305,7 @@ def category_body(text):
             'skull found on the left to the female skeleton',
             'skull east to the left arm',
         ],
-        ######################### skull #########################################
+        ######################### legs #########################################
         'legs flexed': [
             'legs slightly bent',
             'legs slightly in desorder',
@@ -251,16 +314,37 @@ def category_body(text):
             'legs bent backward',
             'legs flexed at knees',
             'legs bent westward',
+            'knees flexed',
+            'knees bent',
+            'knees probably bent',
+            'knees slightly bent',
+            'knees slightly flexed',
+            'legs slightly flexed',
+            'right knee slightly flexed',
+            'right leg slightly flexed',
+            'legs flexed so that feet look backward',
         ],
         'legs crossed': [
             'legs crossed',
         ],
+        'legs crossed at feet': [
+            'legs crossed at feet',
+        ],
         'legs extended': [
             'legs extended',
+            'legs are extended',
+            'legs straight',
             'legs extended but not in line with the spine',
         ],
         'legs missing': [
             'legs missing due to pit cut',
+        ],
+        'legs in disorder': [
+            'legs in disorder',
+        ],
+        ######################### Position Confused #########################################
+        '': [
+            'position confused',
         ],
        }
     if pd.isna(text):
@@ -270,7 +354,7 @@ def category_body(text):
     modified_array = []
 
     for item in array_text:
-        item_lower = item.lower()
+        item_lower = clean_text(item)
         replaced = False
         for category, words in words_to_replace.items():
             for word in words:
@@ -322,13 +406,6 @@ df1['hands'] = pd.np.where(df1['text3'].str.contains("hand"), df1['text3'], df1[
 df1['hands'] = pd.np.where(df1['text4'].str.contains("hand"), df1['text4'], df1['hands'])
 df1['hands'] = pd.np.where(df1['text5'].str.contains("hand"), df1['text5'], df1['hands'])
 
-#Finds mentions of face and copies text to appropiate columnn
-############Find more pythonic way of doing this###########################################
-df1['face'] = pd.np.where(df1['text1'].str.contains("face"), df1['text1'], np.nan)
-df1['face'] = pd.np.where(df1['text2'].str.contains("face"), df1['text2'], df1['face'])
-df1['face'] = pd.np.where(df1['text3'].str.contains("face"), df1['text3'], df1['face'])
-df1['face'] = pd.np.where(df1['text4'].str.contains("face"), df1['text4'], df1['face'])
-df1['face'] = pd.np.where(df1['text5'].str.contains("face"), df1['text5'], df1['face'])
 
 #Finds mentions of arms and copies text to appropiate columnn
 ############Find more pythonic way of doing this###########################################
@@ -340,12 +417,12 @@ df1['arm'] = pd.np.where(df1['text5'].str.contains("arm"), df1['text5'], df1['ar
 
 #Finds mentions of skulls and copies text to appropiate columnn
 ############Find more pythonic way of doing this###########################################
-names = ["skull", "head"]
-df1['skull'] = pd.np.where(df1['text1'].str.contains("|".join(names)), df1['text1'], np.nan)
-df1['skull'] = pd.np.where(df1['text2'].str.contains("|".join(names)), df1['text2'], df1['skull'])
-df1['skull'] = pd.np.where(df1['text3'].str.contains("|".join(names)), df1['text3'], df1['skull'])
-df1['skull'] = pd.np.where(df1['text4'].str.contains("|".join(names)), df1['text4'], df1['skull'])
-df1['skull'] = pd.np.where(df1['text5'].str.contains("|".join(names)), df1['text5'], df1['skull'])
+names = ["skull", "head", "face"]
+df1['head'] = pd.np.where(df1['text1'].str.contains("|".join(names)), df1['text1'], np.nan)
+df1['head'] = pd.np.where(df1['text2'].str.contains("|".join(names)), df1['text2'], df1['head'])
+df1['head'] = pd.np.where(df1['text3'].str.contains("|".join(names)), df1['text3'], df1['head'])
+df1['head'] = pd.np.where(df1['text4'].str.contains("|".join(names)), df1['text4'], df1['head'])
+df1['head'] = pd.np.where(df1['text5'].str.contains("|".join(names)), df1['text5'], df1['head'])
 
 #Finds mentions of legs and copies text to appropiate columnn
 ############Find more pythonic way of doing this###########################################
@@ -356,12 +433,17 @@ df1['leg'] = pd.np.where(df1['text3'].str.contains("|".join(names)), df1['text3'
 df1['leg'] = pd.np.where(df1['text4'].str.contains("|".join(names)), df1['text4'], df1['leg'])
 df1['leg'] = pd.np.where(df1['text5'].str.contains("|".join(names)), df1['text5'], df1['leg'])
 
-df = pd.concat([df, df1[['body','hands','face','arm','skull','leg']]], axis=1).drop(['Position'], axis=1)
+df1 = df1.replace(r'^\s*$', np.nan, regex=True)
+
+df = pd.concat([df, df1[['body','hands','arm','head','leg']]], axis=1).drop(['Position'], axis=1)
 
 df.columns
 
 
-
+count_dummie=df[['body','hands','arm','head','leg']]
+count_dummies = pd.get_dummies(data=count_dummie, columns=['body','hands','arm','head','leg'], dummy_na=True)
+# Suma de todas las columnas de dummies
+df["N_Parure"] = count_dummies.sum(axis=1)
 
 
 
@@ -399,9 +481,13 @@ df2["Pottery types"] = finds_match
 
 df_pottery=df2.copy()
 
-
+df2_nan = pd.DataFrame()
+df2_nan['nan'] = df2.isnull().any(axis=1).astype(int)
 
 df2 = df2['Pottery types'].str.get_dummies(sep=';')
+df2 = pd.concat([df2, df2_nan], axis=1)
+
+df2 = df2.add_prefix("Pottery_")
 
 df2.columns = df2.columns.str.strip()
 #reverse dummies into columns
@@ -409,49 +495,189 @@ df2 = df2.replace(1, pd.Series(df2.columns, df2.columns))
 df2 = df2.applymap(lambda x: 1 if isinstance(x, str) else x)
 
 df_pottery_count = df2.copy()
+df_pottery_count_overlap = df2.copy()
 df2=df2.join(df[['Level']])
 
-df_pottery.to_csv("pottery_sample.csv")
+df_pottery_count = df_pottery_count.join(df[['Level']])
+df_pottery_count = df_pottery_count.groupby('Level').sum().reset_index()
 
+df_pottery_count.to_csv("pottery_sample.csv")
+
+df_pottery_count_overlap = df_pottery_count_overlap.join(df[['Overlap']])
+df_pottery_count_overlap = df_pottery_count_overlap.groupby('Overlap').sum().reset_index()
+df_pottery_count_overlap.to_csv("pottery_overlap_sample.csv")
 
 # Separar los valores en la columna 'Pottery types'
 #df_pottery['Pottery types'] = df_pottery['Pottery types'].apply(lambda x: x.split(';') if pd.notna(x) and isinstance(x, str) else [])
 
-df_pottery=df_pottery.join(df[['Level']])
-# Crear un diccionario para contar la cantidad de cada tipo de cerámica por nivel
-ceramic_count = {}
+##get dummies for Other objects
+def category_other_objects(text):
+    words_to_replace = {
+        'meat bone': [
+            'meat bone',
+            'meat-bone',
+            'meal bone',
+            'meat bones',
+        ],
+        'fish bone': [
+            'fish',
+            'fish bone',
+            'fish bones',
+        ],
+       'stone bead': [
+           'stone beads',
+           'bead of rock crystal',
+           'green stone',
+           'frit beads',
+           'read stone',
+           'black beads',
+           'beads',
+       ],
+       'mat': [
+           'with a mat',
+       ],
+       'necklace': [
+           'necklace',
+       ],
+       'obsidian': [
+           'obsidian',
+       ],
+       'ochre': [
+           'ochre-paint',
+       ],
+       'animal remains': [
+           'animal jaw',
+           'skull of an animal',
+       ],
+       'clay pellet': [
+           'clay pellet',
+       ],
+       'stone dish': [
+           'stone dish',
+       ],
+        }
+    if pd.isna(text):
+        return text
 
-# Iterar sobre las filas del DataFrame
-for index, row in df_pottery.iterrows():
-    level = row['Level']
-    pottery_types = row
-    
-    # Ignorar las filas con valores nulos o listas vacías
-    if pd.notna(level) and pottery_types.empty:
-        # Agregar las cerámicas al diccionario
-        for ceramic in pottery_types:
-            ceramic_count[(level, ceramic)] = ceramic_count.get((level, ceramic), 0) + 1
-# Convert the dictionary to a list of tuples
-data_list = [(level, ceramic, count) for (level, ceramic), count in ceramic_count.items()]
+    array_text = text.split(';')
+    modified_array = []
+    for item in array_text:
+        item_lower = item.lower()
+        replaced = False
+        for category, words in words_to_replace.items():
+            for word in words:
+                print(word)
+                print(item_lower)
+                if word.lower() in item_lower:
+                    modified_array.append(category)
+                    replaced = True
+                    break  # Salir del bucle interno si hay una coincidencia
+            if replaced:
+                break  # Salir del bucle externo si se hizo una sustitución
 
-# Create a DataFrame from the list
-columns = ['Level', 'Ceramic', 'Count']
-df_pottery_count  = pd.DataFrame(data_list, columns=columns)
-# Convertir la columna 'Ceramic' en variables dummy
-# Usar pivot para reorganizar el DataFrame
-pivot_df = df_pottery_count.pivot(index='Level', columns='Ceramic', values='Count')
+        else:
+            modified_array.append(item)
 
-# Rellenar NaN con 0 (si hay celdas sin valor)
-pivot_df = pivot_df.fillna(0)
+    joined_text = ';'.join(modified_array)
 
-# Resetear el índice para obtener un DataFrame plano
-pivot_df.reset_index(inplace=True)
+    return joined_text
 
-
+df['Objects'] = df['Other objects'].apply(category_other_objects)
+df['Objects']
 
 
+def location_other_objects(text):
+    words_to_replace = {
+       'breast': [
+           'on chest',
+           'on breast',
+       ],
+       'head': [
+           'near head',
+           'beneath skull',
+           'of the head',
+       ],
+       'jaw': [
+           'lower jaw',
+           'both sides of the jaw',
+       ],
+       'box': [
+           'on box',
+       ],
+       'pelvis': [
+           'near pelvis',
+           'near hips',
+           'around hips',
+           'round hips',
+       ],
+       'leg': [
+           'left leg',
+           'around knees',
+       ],
+       'dish': [
+           'dish',
+       ],
+       'neck': [
+           'side of neck',
+       ],
+       'feet': [
+           'right foot',
+       ],
+        }
+    if pd.isna(text):
+        return text
 
-sex_dummies = pd.get_dummies(df['Sex'], prefix='Sex')
+    array_text = text.split(';')
+    modified_array = []
+    for item in array_text:
+        item_lower = item.lower()
+        replaced = False
+        for category, words in words_to_replace.items():
+            for word in words:
+                print(word)
+                print(item_lower)
+                if word.lower() in item_lower:
+                    modified_array.append(category)
+                    replaced = True
+                    break  # Salir del bucle interno si hay una coincidencia
+            if replaced:
+                break  # Salir del bucle externo si se hizo una sustitución
+
+        else:
+            modified_array.append(item)
+
+    joined_text = ';'.join(modified_array)
+
+    return joined_text
+
+df['Objects Location'] = df['Other objects'].apply(location_other_objects)
+
+
+def number_other_objects(text):
+    words_to_replace = {
+        '1': ['two'],
+        '2': ['three'],
+        '3': ['four']
+    }
+    if pd.isna(text):
+        return 0  # Devuelve 0 si el texto es NaN
+
+    array_text = text.split(';')
+    count = len(array_text)  # Conteo inicial de elementos en el array
+    for item in array_text:
+        item_lower = item.lower()
+        for category, words in words_to_replace.items():
+            for word in words:
+                if word.lower() in item_lower:
+                    count += int(category)  # Suma el número correspondiente al conteo
+
+    return count  # Devuelve solo el conteo total
+
+df['N_Objects'] = df['Other objects'].apply(number_other_objects)
+df['N_Parure'] = df['N_Objects'] + df['N_Parure']
+
+
+sex_dummies = pd.get_dummies(df['Sex'], prefix='Sex', dummy_na=True)
 sex_dummies = sex_dummies.join(df[['Level']])
 sex_dummies = sex_dummies.set_index('Level')
 sex_dummies = sex_dummies.groupby('Level').sum().reset_index()
@@ -461,26 +687,175 @@ sex_dummies = sex_dummies.set_index('Level')
 sex_dummies.to_csv("level_sex_sample.csv")
 
 
-
-
-
 #Separates multiple items into dummies with unique body positions and burial types
-df3 = df[['body','hands','face','arm','skull','leg', 'Burial Type', "Sex", "Orientation"]]
+
+#df3 = df[["Orientation", 'Burial Type', "Sex", "Age", 'body','hands','face','arm','skull','leg', 'Objects', 'Objects Location']]
+#df3 = df[["Orientation", 'Burial Type', "Age", 'body','hands','face','arm','skull','leg' ]]
+df3 = df[['Burial Type', "Age", 'body','hands','arm','head','leg' ]]
+
 #One-Hot-Encoding for body positions
-df4 = pd.get_dummies(data=df3, columns=['body','hands','face','arm','skull','leg', 'Burial Type'])
+
+#df4 = pd.get_dummies(data=df3, columns=['body','hands','face','arm','skull','leg', 'Burial Type', "Sex", "Orientation", 'Age', 'Objects', 'Objects Location'])
+#df4 = pd.get_dummies(data=df3, columns=['body','hands','face','arm','skull','leg', 'Burial Type', "Orientation", 'Age'])
+df4 = pd.get_dummies(data=df3, columns=['body','hands','arm','head','leg', 'Burial Type',  'Age'], dummy_na=True)
+#Drop 
+df4 = df4.drop(['leg_hands beside legs', 'leg_left hand beside leg'
+                , 'leg_lower jaw east of the left leg', 'leg_right hand beside leg'
+                , 'arm_skull east of the left arm', 'Burial Type_over an older grave',
+               'Burial Type_over an older burial', 'Burial Type_found beneath another burial'
+               , 'Burial Type_much desintegrated'], 
+               axis=1)
+
+
 df4.columns = df4.columns.str.strip()
 #reverse dummies into columns
-df4 = df4.replace(1, pd.Series(df4.columns, df4.columns))
+#df4 = df4.replace(1, pd.Series(df4.columns, df4.columns))
 
 df["Level"]=df2["Level"]
 df2=df2.drop('Level', axis=1)
 # Join all datasets
-dataset = df2.join(df4).join(df[['Grave', 'Individual', 'Level', 'Age',
-       'Size', 'Other objects']])
+#dataset = df2.join(df4).join(df[['Level', 'Size', 'Overlap', 'N_Individuals', 'N_Parure', 'N_Objects']])
+dataset = df2.join(df4).join(df[['Level', 'N_Individuals', 'N_Parure', 'N_Objects']])
+
 dataset = dataset.replace(np.nan, '').astype(str)
+dataset['Level'] = dataset['Level'].replace('Surface', 0)
+dataset['Level'] = dataset['Level'].replace(np.nan, 0)
+dataset['Level'] = dataset['Level'].replace('', int(0))
 
 dataset
-dataset.to_csv("Dataset.csv")
+
+nombre = "Dataset"
+fecha = datetime.datetime.now().strftime("%Y_%m_%d")
+dataset.to_csv(f"{nombre}_{fecha}.csv")
+
+
+
+dataset = pd.read_csv(r'Datasets/Dataset_2024_01_25/Dataset_2024_01_25.csv')
+dataset.set_index('Grave_ID', inplace=True)
+
+
+import os
+for dirname, _, filenames in os.walk('C:/Users/fabia/Documents/GitHub/Eridu/optimizado/Datasets/Dataset_2024_01_23'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+
+################################ Gap Statics ##################################
+import numpy as np # linear algebra
+import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
+import time
+import hashlib
+import scipy
+import matplotlib.pyplot as plt
+from sklearn.cluster import KMeans, Birch
+from sklearn.datasets import make_blobs
+
+x, y = make_blobs(n_samples=228, n_features=110, centers=2, random_state=42)
+
+plt.scatter(x[:, 0], x[:, 1])
+plt.show()
+
+
+def optimalK(data, maxClusters):
+    """
+    Calculates KMeans optimal K using Gap Statistic from Tibshirani, Walther, Hastie
+    Params:
+        data: ndarry of shape (n_samples, n_features)
+        nrefs: number of sample reference datasets to create
+        maxClusters: Maximum number of clusters to test for
+    Returns: (gaps, optimalK)
+    """
+    nrefs=3
+    gaps = np.zeros((len(range(1, maxClusters)),))
+    resultsdf = pd.DataFrame({'clusterCount':[], 'gap':[]})
+    for gap_index, k in enumerate(range(1, maxClusters)):
+
+        # Holder for reference dispersion results
+        refDisps = np.zeros(nrefs)
+
+        # For n references, generate random sample and perform kmeans getting resulting dispersion of each loop
+        for i in range(nrefs):
+            
+            # Create new random reference set
+            randomReference = np.random.random_sample(size=data.shape)
+            
+            # Fit to it
+            km = KMeans(k)
+            km.fit(randomReference)
+            
+            refDisp = km.inertia_
+            refDisps[i] = refDisp
+            
+        # Fit cluster to original data and create dispersion
+        km = KMeans(k)
+        km.fit(data)
+        
+        origDisp = km.inertia_
+
+        # Calculate gap statistic
+        gap = np.log(np.mean(refDisps)) - np.log(origDisp)
+
+        # Assign this loop's gap statistic to gaps
+        gaps[gap_index] = gap
+        
+        resultsdf = resultsdf.append({'clusterCount':k, 'gap':gap}, ignore_index=True)
+
+    return (gaps.argmax() + 1, resultsdf)  # Plus 1 because index of 0 means 1 cluster is optimal, index 2 = 3 clusters are optimal
+
+
+k, gapdf = optimalK(dataset,maxClusters=3)
+print('Optimal k is: ', k)
+
+############################### Silhuette #####################################
+# Silhouette Score for K means
+# Import ElbowVisualizer
+from yellowbrick.cluster import KElbowVisualizer
+model = KMeans()
+# k is range of number of clusters.
+visualizer = KElbowVisualizer(model, k=(2,10),metric='silhouette', timings= True)
+visualizer.fit(dataset)        # Fit the data to the visualizer
+visualizer.show()        # Finalize and render the figure
+
+############################### Hierarichal #####################################
+import scipy.cluster.hierarchy as sch
+import matplotlib.pyplot as plt
+
+X = dataset.values
+
+A = sch.single(dataset)
+B = sch.complete(dataset)
+C = sch.average(dataset)
+
+linkage_matrices = [A, B, C]
+methods = ['single', 'complete', 'average']
+
+for i, Z in enumerate(linkage_matrices):
+    plt.figure(figsize=(20,10))
+    dendrogram = sch.dendrogram(Z)
+    plt.title('Dendrogram - ' + methods[i])
+    plt.xlabel('Tombs Index')
+    plt.ylabel('Euclidean distances')
+    nombre = "Hierarichal_" + methods[i]
+    fecha = datetime.datetime.now().strftime("%Y_%m_%d")
+    plt.savefig(f"{nombre}_{fecha}.png", dpi=300)
+    plt.show()
+    
+
+import matplotlib.pyplot as mp
+import sklearn
+cutree = sch.cut_tree(A)
+data_columns = X.columns
+labels = list([i[0] for i in cut])
+labeled_data = pd.DataFrame(X, columns=data_columns)
+labeled_data['label'] = labels
+
+fig, axes = mp.subplots(nrows = 1, 
+                        ncols = 1, 
+                        figsize = (4,4), 
+                        dpi=300)
+sklearn.tree.plot_tree(model,
+                       feature_names = X.columns,
+                       filled = True,
+                       class_names=True);
 """Four different samples will be created:
 - Full burial sample (the full dataframe)
 - Top sub-level only
@@ -513,11 +888,16 @@ plt.plot(K, cost, 'bx-')
 plt.xlabel('No. of clusters')
 plt.ylabel('Cost')
 plt.title('Elbow Method For Optimal k')
+# Guarda el gráfico con el nombre y la fecha
+nombre = "DF3 Elbow"
+fecha = datetime.datetime.now().strftime("%Y_%m_%d")
+plt.savefig(f"{nombre}_{fecha}.png")
 plt.show()
+
 
 """Configuration of all the models to test and application to each sample"""
 # Building the model with 2 clusters
-kmode = KModes(n_clusters=2, init = "random", n_init = 5, verbose=1)
+kmode = KModes(n_clusters=3, init = "random", n_init = 5, verbose=1)
 clusters = kmode.fit_predict(data)
 
 """Definition of optimal number of clusters with loop for each sample"""
@@ -542,41 +922,71 @@ cluster0 = table.iloc[0]
 cluster0 = cluster0.sort_values(ascending=False)
 cluster1 = table.iloc[1]
 cluster1 = cluster1.sort_values(ascending=False)
+cluster2 = table.iloc[2]
+cluster2 = cluster2.sort_values(ascending=False)
 
-diff0 = cluster0.nlargest(50).index.difference(cluster1.nlargest(30).index)
-diff1 = cluster1.nlargest(30).index.difference(cluster0.nlargest(30).index)
+#diff0 = cluster0.nlargest(50).index.difference(cluster1.nlargest(30).index)
+#diff1 = cluster1.nlargest(30).index.difference(cluster0.nlargest(30).index)
+#diff2 = cluster2.nlargest(30).index.difference(cluster1.nlargest(30).index)
+
+diff0 = cluster0.nlargest(100).index.difference(cluster1).difference(cluster2)
+diff1 = cluster1.nlargest(100).index.difference(cluster0).difference(cluster2)
+diff2 = cluster2.nlargest(100).index.difference(cluster0).difference(cluster1)
+
 
 diff0
 
+
+# Encuentra las diferencias entre los tres clusters
+diff0_1_2 = diff0.difference(diff1).difference(diff2)
+diff1_0_2 = diff1.difference(diff0).difference(diff2)
+diff2_0_1 = diff2.difference(diff0).difference(diff1)
+diff0 = diff0_1_2
+diff1 = diff1_0_2
+diff2 = diff2_0_1
+# Imprime las diferencias
+print("Diferencias en cluster0 no presentes en cluster1 y cluster2:\n", diff0_1_2)
+print("Diferencias en cluster1 no presentes en cluster0 y cluster2:\n", diff1_0_2)
+print("Diferencias en cluster2 no presentes en cluster0 y cluster1:\n", diff2_0_1)
+
+
 #, facecolor='w', edgecolor='k')
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 5))
+fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(20, 10))
 fig.suptitle('Top Unique Contributing Features to Clusters')
 cluster0[diff0].sort_values(ascending=True).plot(ax=ax1, kind='barh')
 cluster1[diff1].sort_values(ascending=True).plot(ax=ax2, kind='barh')
+cluster2[diff2].sort_values(ascending=True).plot(ax=ax3, kind='barh')
 ax1.title.set_text('Cluster 0 Unique Characteristics')
 ax2.title.set_text('Cluster 1 Unique Characteristics')
+ax3.title.set_text('Cluster 2 Unique Characteristics')
 
 # Rotar las etiquetas del eje x
 ax1.set_xticklabels(ax1.get_xticklabels(), rotation=90)
 ax2.set_xticklabels(ax2.get_xticklabels(), rotation=90)
+ax3.set_xticklabels(ax3.get_xticklabels(), rotation=90)
 
 plt.tight_layout()
+# Guarda el gráfico con el nombre y la fecha
+nombre = "DF3 Unique Cont Feat to Clusters"
+fecha = datetime.datetime.now().strftime("%Y_%m_%d")
+plt.savefig(f"{nombre}_{fecha}.png")
 plt.show()
 
 
 
+
 # Ensure that the indices are the same
-common_index = cluster0.index.intersection(cluster1.index)
+common_index = cluster0.index.intersection(cluster1.index).intersection(cluster2.index)
 
 # Create a DataFrame with the cluster data
-data_cluster = pd.DataFrame({'Cluster0': cluster0[common_index], 'Cluster1': cluster1[common_index]})
+data_cluster = pd.DataFrame({'Cluster0': cluster0[common_index], 'Cluster1': cluster1[common_index],'Cluster2': cluster2[common_index]})# 
 
 # Sort the data in descending order
-data_cluster = data_cluster.sort_values(by=['Cluster0', 'Cluster1'], ascending=False)
+data_cluster = data_cluster.sort_values(by=['Cluster0', 'Cluster1', 'Cluster2'], ascending=False)
 
 # Select only the first 20 rows
-data_cluster = data_cluster.iloc[:20]
-data_cluster = data_cluster.sort_values(by=['Cluster0', 'Cluster1'], ascending=True)
+data_cluster = data_cluster.iloc[:40]
+data_cluster = data_cluster.sort_values(by=['Cluster0', 'Cluster1', 'Cluster2'], ascending=True)
 
 # Create the stacked bar chart
 ax = data_cluster.plot.barh(stacked=True, figsize=(10, 7))
@@ -591,6 +1001,10 @@ plt.xticks(rotation=90)
 
 # Show the chart
 plt.tight_layout()
+# Guarda el gráfico con el nombre y la fecha
+nombre = "DF3 Charact Cont to Clusters"
+fecha = datetime.datetime.now().strftime("%Y_%m_%d")
+plt.savefig(f"{nombre}_{fecha}.png")
 plt.show()
 
 
