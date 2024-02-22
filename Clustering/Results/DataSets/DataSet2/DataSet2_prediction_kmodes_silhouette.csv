@@ -1,0 +1,239 @@
+Grave_ID,index,Grave,Individual,Level,Orientation,Type,Sex,Age,Size,Pottery types,Other objects,Presevation,Photo Diagram,Overlap,N_Individuals,ID,Burial Type,body,hands,arm,head,leg,N_Parure,Objects,Objects Location,N_Objects,Cluster
+1_1A,0,1,A,0.7,N.W,sealed libn box,Male,Adult,,52 on the face;13A west of the feet,,bad,,0.0,2,1A,Libn box,extended on back,hands beside legs,,face westward,hands beside legs,5,,,0,0
+1_1B,1,1,B,0.7,N.W,sealed libn box,Female,Adult,,,,bad,,0.0,2,1B,Libn box,extended on back,hands beside legs,,face eastward,hands beside legs,5,,,0,0
+2_2A,2,2,A,0,N.W,on libn floor,Female,Adult,155.0,,,,,0.0,1,2A,Libn floor,extended on back,hands near pelvis,,face westward,,5,,,0,0
+3_3A,3,3,A,0.3,N.W,libn box,Female,Adult,,374 8C;529 12B,,bad,,0.0,2,3A,Libn box,body to the right,,,face westward,,5,,,0,0
+3_3B,4,3,B,0.3,N.W,libn box,Male,Adult,175.0,383 5A;12B,,bad,,0.0,2,3B,Libn box,extended on back,hands near pelvis,,face westward,,5,,,0,0
+4_4A,5,4,A,0,,,Male,Adult,,,,,,0.0,1,4A,,,,,,,5,,,0,1
+5_5A,6,5,A,0,,,Male,Adult,,,,,,0.0,1,5A,,,,,,,5,,,0,1
+6_6A,7,6,A,0,,,Male,Adult,,,,,,0.0,1,6A,,,,,,,5,,,0,1
+7_7A,8,7,A,0.55,N.W,sealed libn box,Female,Child,75.0,,,bad,,0.0,1,7A,Libn box,extended on back,,,face upward,,5,,,0,1
+8_8A,9,8,A,0.8,N.W,libn box,Female,Adult,150.0,,meat-bone on breast,bad,,0.0,1,8A,Libn box,,hands crossed on pelvis,,,legs flexed,6,meat bone,breast,1,1
+9_9A,10,9,A,1.5,N.W,buried on pure sand;lump of clay beneath the head,Female,Adult,165.0,,,bad,,0.0,1,9A,In sand,extended on back,hands crossed on pelvis,,face upward,legs flexed,5,,,0,0
+10_10A,11,10,A,0.3,N.W,in'ubaid deposit,Male,Adult,,381 6A;337 5C;379 13A,meat bone,bad,,0.0,1,10A,,extended on back,hands beside legs,,face westward,hands beside legs,6,meat bone,meat bone,1,0
+11_11A,12,11,A,0.3,,,Female,Child,,,,,,0.0,1,11A,,,,,,,5,,,0,1
+12_12A,13,12,A,0.6,N.W,libn box,Female,Adult,140.0,,,bad,,0.0,1,12A,Libn box,extended on back,left hand beside leg,,,left hand beside leg,5,,,0,0
+13_13A,14,13,A,0.6,N.W,libn box,Male,Adult,,393 5B;13E,,bad,,0.0,2,13A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+13_13B,15,13,B,0.6,N.W,libn box,Male,Adult,,10B,,bad,,0.0,2,13B,Libn box,,,,skull collapsed,,5,,,0,0
+14_14A,16,14,A,1,N.W,in sand,Female,Child,,,,bad,,0.0,1,14A,In sand,body to the right,,,,,5,,,0,1
+15_15A,17,15,A,0.8,N.W,libn box,Male,Youth,90.0,385 1B;382 7A;566 1B;383 5C;675 5A;387 13E,,bad,,0.0,1,15A,Libn box,extended on back,hands beside legs,,face westward,hands beside legs,5,,,0,0
+16_16A,18,16,A,0.8,N.W,sealed libn box,Female,Child,77.0,579 13C;583 1C;5C,,bad,,0.0,1,16A,Libn box,extended on back,hands near pelvis,,,,5,,,0,0
+17_17A,19,17,A,0.4,N.W,libn box,Female,Adult,170.0,5A;659 5C;632 12A;1B,,good,,0.0,1,17A,Libn box,extended on back,hands near pelvis,,face eastward,,5,,,0,0
+18_18A,20,18,A,0.6,N.W,libn box,Male,Adult,,545 8A;546 8A,,bad,,0.0,2,18A,Libn box,body to the right,left hand near pelvis,,,right hand beside leg,5,,,0,0
+18_18B,21,18,B,0.6,N.W,libn box,Female,Adult,,,,bad,,0.0,2,18B,Libn box,body to the left,right hand near pelvis,,,,5,,,0,0
+19_19A,22,19,A,0.3,,,Female,Child,,390 5C,,,,0.0,1,19A,,,,,,,5,,,0,1
+20_20A,23,20,A,0.3,,,Female,Child,,390 5C,,,,0.0,1,20A,,,,,,,5,,,0,1
+21_21A,24,21,A,0.1,N.W,buried above sealed libn box of grave 22,Male,Adult,,stone jar;dish;mace hand,,,,2.0,1,21A,Libn box,extended on back,right hand near pelvis,,skull collapsed,left hand beside leg,5,,,0,0
+22_22A,25,22,A,0.45,N.W,libn box,Female,Adult,167.0,504 3B;512 5A;655 1B,,bad,,1.0,1,22A,Libn box,extended on back,,arms in disorder,face westward,legs in disorder,5,,,0,0
+23_23A,26,23,A,0.7,N.W,sealed libn box,Male,Adult,168.0,401 8A;863 5A;396 13A;398 6A,,good,,0.0,2,23A,Libn box,,,,face westward,,5,,,0,0
+23_23B,27,23,B,0.7,N.W,sealed libn box,Female,Adult,,398 6A;400 12C,,bad,,0.0,2,23B,Libn box,extended on back,,,face westward,,5,,,0,0
+24_24A,28,24,A,1,N.W,,Male,Adult,,5C;13A,,good,,0.0,2,24A,,extended on back,,,,,5,,,0,0
+24_24B,29,24,B,1,N.W,,Female,Adult,155.0,12B,,,,0.0,2,24B,,extended on back,hands near pelvis,,face eastward,,5,,,0,0
+25_25A,30,25,A,1.2,N.W,on pure sand,Female,Adult,,463 7A;12B near the right foot,,very bad,,0.0,1,25A,In sand,extended on back,hands near pelvis,,,,5,,,0,0
+26_26A,31,26,A,0,N.W,,Male,Adult,,,,very bad,,0.0,1,26A,,extended on back,,,face eastward,,5,,,0,0
+27_27A,32,27,A,0,N.W,much desintegrated,Male,Adult,,505 2A;1A;7A,,,,0.0,1,27A,,,,,,,5,,,0,1
+28_28A,33,28,A,0.4,N.W,libn box,Female,Child,115.0,484 5C;1B;2A,,very bad,,0.0,1,28A,Libn box,extended on back,,,face eastward,,5,,,0,0
+29_29A,34,29,A,0.4,N.W,on sand,Female,Child,86.0,403 5A;12B,,bad,,0.0,1,29A,In sand,extended on back,,,,legs flexed,5,,,0,1
+30_30A,35,30,A,0.15,N.W,sealed libn box,Female,Adult,,455 5A; 13D,fish and meal bones,bad,,0.0,2,30A,Libn box,extended on back,right hand on body,,skull collapsed,,6,meat bone,fish and meal bones,1,0
+30_30B,36,30,B,0.15,N.W,sealed libn box,Male,Adult,160.0,471 12C;590 1B,,,,0.0,2,30B,Libn box,extended on back,,,,legs crossed,5,,,0,0
+31_31A,37,31,A,0.6,N.W,sealed libn box,Female,Adult,,653 5A;5C,,bad,,0.0,2,31A,Libn box,body to the left,,,,,5,,,0,0
+31_31B,38,31,B,0.6,N.W,sealed libn box,Female,Adult,,three of 447 13E,,,,0.0,2,31B,Libn box,extended on back,,,,,5,,,0,0
+32_32A,39,32,A,1.1,N.W,over an older grave,Female,Adult,110.0,,,bad,,2.0,1,32A,,extended on back,,,face upward,,5,,,0,0
+33_33A,40,33,A,1.2,N.W,,Male,Child,,,,,,0.0,1,33A,,,,,,,5,,,0,1
+34_34A,41,34,A,1.5,N.W,sealed libn box,Female,Adult,155.0,499 5A;1B;13E,two meat bones near the head,fair,,0.0,1,34A,Libn box,extended on back,hands near pelvis,,face upward,,7,meat bone,two meat bones near the head,2,0
+35_35A,42,35,A,0.4,N.W,libn box,Female,Child,59.0,,,fair,,0.0,1,35A,Libn box,extended on back,,,,,5,,,0,1
+36_36A,43,36,A,1.4,N.W,over an older burial,Female,Child,,148 5C;2A,,bad,,2.0,1,36A,,extended on back,hands near pelvis,,face upward,,5,,,0,0
+37_37A,44,37,A,0.2,N.W,libn box,Female,Adult,,442 5A;2B,,,,0.0,1,37A,Libn box,extended on back,,,,,5,,,0,0
+38_38A,45,38,A,0.6,N.W,libn box,Female,Child,,,,bad,,0.0,1,38A,Libn box,body to the left,,,,,5,,,0,1
+39_39A,46,39,A,1.1,N.W,sealed libn box,Female,Child,,496 5A;569 6A;13C;1A,bead of rock crystal on the lower jaw,fair,,0.0,1,39A,Libn box,extended on back,,,face upward,,6,stone bead,jaw,1,0
+40_40A,47,40,A,0.5,N.W,,Female,Child,,418 5C;11A;419 13E;9A,three beads of green stone near lower jaw;a string of beads of obsidian calcite and shell around the waist.,bad,,0.0,1,40A,,extended on back,,,,,9,stone bead;stone bead,jaw;a string of beads of obsidian calcite and shell around the waist.,4,1
+41_41A,48,41,A,1.5,N.W,libn box,Male,Adult,175.0,483 5C;568 1C;640 13C,meat bones on box,fair,,0.0,1,41A,Libn box,extended on back,,,face eastward,,6,meat bone,box,1,0
+42_42A,49,42,A,1,N.W,libn box,Female,Adult,170.0,488 5C;646 1B;630 13E;635 13B,,bad,,0.0,1,42A,Libn box,extended on back,left hand near pelvis,,face eastward,right hand beside leg,5,,,0,0
+43_43A,50,43,A,1.2,N.W,libn box,Female,Adult,161.0,5C;1B;634 13C,,good,,0.0,1,43A,Libn box,extended on back,left hand near pelvis,,face eastward,,5,,,0,0
+44_44A,51,44,A,0.7,N.W,libn box,Female,Child,,13E,,very bad,,0.0,1,44A,Libn box,extended on back,,,,legs flexed,5,,,0,0
+45_45A,52,45,A,0.6,N.W,libn box,Male,Infant,,,,very bad,,0.0,2,45A,Libn box,extended on back,,,face westward,,5,,,0,0
+45_45B,53,45,B,0.6,N.W,libn box,Male,Infant,,,,very bad,,0.0,2,45B,Libn box,,,,,,5,,,0,1
+46_46A,54,46,A,0.3,,,Female,Elderly,,,,,,0.0,1,46A,,,,,,,5,,,0,1
+47_47A,55,47,A,0.75,N.W,libn box,Male,Youth,135.0,500 6A;643 12C;11A;13A,,bad,,0.0,1,47A,Libn box,extended on back,left hand beside leg,,face upward,left hand beside leg,5,,,0,0
+48_48A,56,48,A,0.35,N.W,libn box,Female,Child,,654 5C; 548 8B;1B,,,,0.0,1,48A,Libn box,extended on back,,,face westward,,5,,,0,0
+49_49A,57,49,A,0,,,Male,Adult,,,,,,0.0,1,49A,,,,,,,5,,,0,1
+50_50A,58,50,A,1.7,N.W,on pure sand beneath another grave,Male,Youth,115.0,523 4A,,bad,,1.0,1,50A,In sand,extended on back,,,,,5,,,0,0
+51_51A,59,51,A,1,N.W,libn box,Female,Elderly,170.0,5C;1A;613 13E;631 12A,,good,,0.0,1,51A,Libn box,extended on back,hands near pelvis,,face westward,,5,,,0,0
+52_52A,60,52,A,1.7,N.W,libn box,Female,Adult,140.0,5C;11A;13A;615 13D,,,,0.0,1,52A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+53_53A,61,53,A,0.8,N.W,libn box,Female,Child,,527 7A;13A,,good,,0.0,1,53A,Libn box,body to the left,right hand near pelvis,,face upward,,5,,,0,0
+54_54A,62,54,A,1.2,N.W,libn box,Female,Child,,485 6A;1C469 9A;554 11A,,fair,,0.0,1,54A,Libn box,extended on back,,,,,5,,,0,0
+55_55A,63,55,A,0.3,,,Female,Child,,,,,,0.0,1,55A,,,,,,,5,,,0,1
+56_56A,64,56,A,1.9,N.W,libn box,Female,Child,,12C,,bad,,0.0,1,56A,Libn box,extended on back,,,face upward,legs flexed,5,,,0,0
+57_57A,65,57,A,0.3,,,Female,Child,,,,,,0.0,1,57A,,,,,,,5,,,0,1
+58_58A,66,58,A,1,N.W,libn box,Female,Elderly,,497 5A;565 1C;594 1B;547 8B;596 12A,,bad,,0.0,1,58A,Libn box,extended on back,,,,,5,,,0,0
+59_59A,67,59,A,1.7,N.W,libn box,Male,Adult,145.0,6A;13E,,bad,,0.0,1,59A,Libn box,extended on back,hands near pelvis,,face westward,,5,,,0,0
+60_60A,68,60,A,0,N.W,,Male,Adult,,675 6A;1C;407 8C;,,bad,,0.0,1,60A,,extended on back,,,face upward,,5,,,0,0
+61_61A,69,61,A,0.65,N.W,on pure sand,Male,Adult,,509 5A;4A;13A,,fair,,0.0,1,61A,In sand,extended on back,,,face eastward,,5,,,0,0
+62_62A,70,62,A,0.5,N.E,libn box,Female,Adult,,5C;13A;1B,two beads of red stone on both sides of the jaw,fair,,0.0,1,62A,Libn box,extended on back,hands near pelvis,,skull collapsed,legs flexed,7,stone bead,jaw,2,0
+63_63A,71,63,A,1,N.W,libn box,Male,Adult,170.0,457 7B;8B,each wrap-ped with a mat,fair,,0.0,2,63A,Libn box,extended on back,hands near pelvis,,face upward,,6,mat,each wrap-ped with a mat,1,0
+63_63B,72,63,B,1.2,N.W,libn box,Female,Adult,153.0,,,bad,,0.0,2,63B,Libn box,extended on back,left hand near pelvis,,,,5,,,0,0
+64_64A,73,64,A,1,N.W,libn box,Female,Child,,7C;13E;404 5B,,bad,,0.0,1,64A,Libn box,extended on back,,,face eastward,,5,,,0,0
+65_65A,74,65,A,0.5,N.W,libn box,Female,Child,,665 5A;1C;587 13E,,bad,,0.0,1,65A,Libn box,extended on back,,,,,5,,,0,0
+66_66A,75,66,A,1,N.W,sealed libn box,Female,Adult,,481 5A; 13A;1C,,good,,0.0,1,66A,Libn box,extended on back,left hand beside leg,,,left hand beside leg,5,,,0,0
+67_67A,76,67,A,0.5,N.W,libn box,Female,Child,67.0,489 13D;7C;609 1B,,bad,,0.0,1,67A,Libn box,extended on back,right hand beside leg,left arm flexed,face upward,right hand beside leg,5,,,0,0
+68_68A,77,68,A,0.7,N.W,sealed libn box,Female,Adult,142.0,531 5A;1B;13E,Band 6.5cm wide of white & black beads around the body near pelvis.,bad,,0.0,1,68A,Libn box,extended on back,hands near pelvis,,face westward,,6,stone bead,pelvis,1,0
+69_69A,78,69,A,0.5,N.W,over clay floor,Female,Child,80.0,429 5A;1B;13E,,bad,,0.0,1,69A,Clay floor,extended on back,,,,,5,,,0,1
+70_70A,79,70,A,1.1,N.W,on pure sand,Female,Adult,160.0,494 5A;638 13D,,bad,,0.0,1,70A,In sand,extended on back,left hand near pelvis,,face westward,right hand beside leg,5,,,0,0
+71_71A,80,71,A,1.25,N.W,libn box,Female,Adult,158.0,5C;12B,,bad,,0.0,2,71A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+71_71B,81,71,B,1.25,N.W,libn box,Male,Adult,165.0,6A;1B,,,,0.0,2,71B,Libn box,extended on back,,,face upward,,5,,,0,0
+72_72A,82,72,A,1.7,N.W,libn box,Male,Adult,,6B;1B;1B;13E,,bad,,0.0,2,72A,Libn box,extended on back,,,face eastward,,5,,,0,0
+72_72B,83,72,B,1.7,N.W,libn box,Female,Adult,,,,,,0.0,2,72B,Libn box,extended on back,,,face eastward,,5,,,0,0
+73_73A,84,73,A,0.6,N.W,found beneath another burial,Male,Adult,,,,fair,,1.0,1,73A,,extended on back,,right arm straight,face westward,legs flexed,5,,,0,0
+74_74A,85,74,A,0,,,Male,Adult,,517 5A;633 12A,,,,0.0,1,74A,,,,,,,5,,,0,1
+75_75A,86,75,A,0,,,Male,Adult,,517 5A;633 12A,,,,0.0,1,75A,,,,,,,5,,,0,1
+76_76A,87,76,A,1,N.W,on clay floor,Female,Adult,,425 5A;427 1C;13A,,bad,,0.0,1,76A,Clay floor,extended on back,,right arm flexed,face eastward,,5,,,0,0
+77_77A,88,77,A,0.85,N.W,libn floor,Female,Child,,,,bad,,0.0,1,77A,Libn floor,extended on back,,left arm straight,,legs flexed,5,,,0,1
+78_78A,89,78,A,1.8,N.W,libn floor,Female,Adult,,4A;4A;456 6B;12B,,bad,,0.0,3,78A,Libn floor,extended on back,hands near pelvis,,face upward,,5,,,0,0
+78_78B,90,78,B,1.8,N.W,libn floor,Female,Adult,,12B;11A,,bad,,0.0,3,78B,Libn floor,,,,,,5,,,0,1
+78_78C,91,78,C,1.8,N.W,libn floor,Female,Adult,,,,good,,0.0,3,78C,Libn floor,extended on back,hands near pelvis,,face upward,,5,,,0,0
+79_79A,92,79,A,1.8,N.W,on pure sand,Female,Child,,510 6A;611 1C;,,very bad,,0.0,1,79A,In sand,extended on back,,,,,5,,,0,1
+80_80A,93,80,A,0.5,N.W,libn floor,Female,Youth,,13A;495 5A;1B,"Necklace of calcite around the neck & necklace of three colours yellow, white & black beads around the body near hips",bad,,0.0,1,80A,Libn floor,extended on back,,,,,8,stone bead,pelvis,3,0
+81_81A,94,81,A,1,N.W,libn floor,Female,Adult,65.0,490 6A;12A;1B,,fair,,0.0,1,81A,Libn floor,extended on back,,arms straight,face upward,,5,,,0,0
+82_82A,95,82,A,1,N.W,libn floor,Female,Adult,160.0,6B;12B;521 1B;639 13D,,good,,0.0,1,82A,Libn floor,extended on back,hands near pelvis,,face upward,legs crossed,5,,,0,0
+83_83A,96,83,A,0.6,N.W,libn floor,Male,Adult,,479 5A;13A;13A;12B,,bad,,0.0,2,83A,Libn floor,extended on back,hands crossed on pelvis,,,,5,,,0,0
+83_83B,97,83,B,0.6,N.W,libn floor,Male,Adult,,491 6A;13A,,,,0.0,2,83B,Libn floor,extended on back,hands near pelvis,,face eastward,legs flexed,5,,,0,0
+84_84A,98,84,A,0.3,,,Female,Child,,,,,,0.0,1,84A,,,,,,,5,,,0,1
+85_85A,99,85,A,0.3,,,Female,Child,,,,,,0.0,1,85A,,,,,,,5,,,0,1
+86_86A,100,86,A,0.55,N.W,libn floor,Female,Adult,160.0,421 13C;422 6A;1B,,good,,0.0,1,86A,Libn floor,extended on back,hands near pelvis,,,,5,,,0,0
+87_87A,101,87,A,0.3,N.W,libn floor,Male,Adult,,519 4A,,fair,,0.0,2,87A,Libn floor,extended on back,hands on chest,,,,5,,,0,0
+87_87B,102,87,B,0.3,N.W,libn floor,Female,Adult,,464 5A; 506 13E,,fair,,0.0,2,87B,Libn floor,extended on back,hands near pelvis,,,,5,,,0,0
+88_88A,103,88,A,0.6,N.W,libn floor,Female,Adult,,508 2A;487 1B;642 13C,,fair,,0.0,2,88A,Libn floor,extended on back,left hand near pelvis,right arm straight,face westward,,5,,,0,0
+88_88B,104,88,B,0.6,N.W,libn floor,Male,Adult,,1B,,good,,0.0,2,88B,Libn floor,extended on back,,,face upward,legs flexed,5,,,0,0
+89_89A,105,89,A,0.4,N.W,libn floor,Female,Child,,,,bad,,0.0,1,89A,Libn floor,extended on back,,,face upward,,5,,,0,1
+90_90A,106,90,A,0.5,N.W,libn floor,Male,Adult,120.0,674 5A;4A,"Two necklace one of frit other of obsidian, around the body near hips",fair,,0.0,2,90A,Libn floor,extended on back,,,face upward,,7,necklace,pelvis,2,0
+90_90B,107,90,B,0.5,N.W,libn floor,Female,Adult,,645 8C;12B;13A;694 6B,,,,0.0,2,90B,Libn floor,,hands near pelvis,,face upward,,5,,,0,0
+91_91A,108,91,A,0.5,S.E,libn floor,Male,Adult,,,meat bones on chest;Piece of reed mat near left leg and on it pieces of ochre-paint.,,,0.0,1,91A,Libn floor,extended on back,hands near pelvis,,face upward,,7,meat bone;ochre,breast;leg,2,0
+92_92A,109,92,A,0.8,N.W,libn floor,Female,Child,,442 4B; 6A;467 8C,,bad,,0.0,2,92A,Libn floor,,,,skull turned,,5,,,0,1
+92_92B,110,92,B,0.8,N.W,libn floor,Female,Child,,,,,,0.0,2,92B,Libn floor,embryonic position,,,face eastward,,5,,,0,1
+93_93A,111,93,A,0.6,N.W,libn box,Female,Child,,661 5A;11A;584 13E;600 13E,Animal jaw east of the head,fair,,0.0,1,93A,Libn box,extended on back,hands near pelvis,,face upward,,6,animal remains,head,1,0
+94_94A,112,94,A,1.5,N.W,in sand,Female,Adult,,,Ubaid bowl,very bad,,0.0,1,94A,In sand,extended on back,,,face upward,legs flexed,6,Ubaid bowl,Ubaid bowl,1,0
+95_95A,113,95,A,1.5,N.W,libn box,Female,Adult,168.0,,,bad,,0.0,1,95A,Libn box,extended on back,hands near pelvis,,,,5,,,0,0
+96_96A,114,96,A,0.4,N.W,libn box,Male,Adult,,439 6A,,fair,,0.0,2,96A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+96_96B,115,96,B,0.4,N.W,libn box,Female,Adult,,13A;453 2B,,fair,,0.0,2,96B,Libn box,extended on back,left hand near pelvis,,face upward,,5,,,0,0
+97_97A,116,97,A,0.4,N.W,,Female,Adult,,2B,,bad,,0.0,2,97A,,extended on back,,,,,5,,,0,0
+97_97B,117,97,B,0.4,N.W,,Female,Adult,,,,,,0.0,2,97B,,,,,sixteen skulls without bodies,,5,,,0,1
+98_98A,118,98,A,0.9,N.W,in sand,Female,Child,,567 13E;445 6B,,bad,,0.0,1,98A,In sand,extended on back,,,,,5,,,0,1
+99_99A,119,99,A,0.4,N.W,in sand,Female,Child,,,,very bad,,0.0,1,99A,In sand,extended on back,right hand near pelvis,,face eastward,,5,,,0,1
+100_100A,120,100,A,1.8,N.W,in sand,Male,Child,,,,,,0.0,2,100A,In sand,body to the right,,,skull collapsed,,5,,,0,1
+100_100B,121,100,B,1.8,N.W,in sand,Female,Child,,,,,,0.0,2,100B,In sand,,,,,,5,,,0,1
+101_101A,122,101,A,1,N.W,in sand,Female,Adult,,5C;8A;520 12B,,bad,,0.0,2,101A,In sand,extended on back,hands near pelvis,,,,5,,,0,0
+101_101B,123,101,B,1,N.W,in sand,Female,Adult,167.0,641 13D;7A;1C,,bad,,0.0,2,101B,In sand,extended on back,,,face upward,,5,,,0,0
+102_102A,124,102,A,1.8,N.W,libn box,Male,Adult,160.0,,,fair,,0.0,1,102A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+103_103A,125,103,A,1.5,S.E,in sand,Female,Child,,,,bad,,0.0,1,103A,In sand,embryonic position,,,face westward,,5,,,0,1
+104_104A,126,104,A,0.8,N.W,libn box,Female,Adult,,,,very bad,,0.0,1,104A,Libn box,,,,skull collapsed,legs missing,5,,,0,1
+105_105A,127,105,A,1,N.W,libn box,Male,Child,,13A;1B;5C,two clay pellet,fair,,0.0,1,105A,Libn box,extended on back,hands beside legs,,face upward,hands beside legs,7,clay pellet,two clay pellet,2,0
+106_106A,128,106,A,1.5,N.W,sealed libn box,Male,Adult,,5A;1C;13E;13E;5C;1B,"Fish bones in the dish, and cup",fair,,0.0,2,106A,Libn box,extended on back,hands near pelvis,,,,6,fish bone,dish,1,0
+106_106B,129,106,B,1.5,N.W,sealed libn box,Female,Adult,,,,,,0.0,2,106B,Libn box,,hands near pelvis,,,,5,,,0,1
+107_107A,130,107,A,0.55,N.W,libn box,Female,Adult,,5C;1B;2B,,,,0.0,2,107A,Libn box,extended on back,hands beside legs,,face upward,hands beside legs,5,,,0,0
+107_107B,131,107,B,0.55,N.W,libn box,Female,Child,,6A;1B,,,,0.0,2,107B,Libn box,,hand on head,,hand on head,,5,,,0,0
+108_108A,132,108,A,1.25,N.W,libn box,Female,Child,,589 13E;446 6A;1A,Band of red stone beads around hips,,,0.0,1,108A,Libn box,extended on back,,,,,6,stone bead,pelvis,1,0
+109_109A,133,109,A,1.2,N.W,sealed libn box,Female,Adult,170.0,503 2A;657 6B;454 8A,,,,0.0,1,109A,Libn box,extended on back,right hand near pelvis,,face upward,,5,,,0,0
+110_110A,134,110,A,1.3,N.W,libn box,Female,Youth,,610 1B;460 5C;448 13B,Frit beads at the right side of neck,,,0.0,1,110A,Libn box,extended on back,,,skull collapsed,,6,stone bead,neck,1,0
+111_111A,135,111,A,1.2,N.W,in sand,Female,Adult,,556 1B,,bad,,0.0,1,111A,In sand,extended on back,hands beside legs,,face upwards,hands beside legs,5,,,0,0
+112_112A,136,112,A,1.2,N.W,libn box,Male,Adult,,7B;5A;13E,,fair,,0.0,3,112A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+112_112B,137,112,B,1.2,N.W,libn box,Male,Child,,1B;12C,,,,0.0,3,112B,Libn box,,,,skull higher in the box,,5,,,0,1
+112_112C,138,112,C,1.2,N.W,libn box,Female,Adult,,13C;4B,,,,0.0,3,112C,Libn box,extended on back,hands near pelvis,,,legs crossed at feet,5,,,0,0
+113_113A,139,113,A,0,,,Male,Adult,,664 5A;652 13D;544 8A,,,,0.0,1,113A,,,,,,,5,,,0,1
+114_114A,140,114,A,1.5,N.W,sealed libn box,Male,Child,58.0,12C;710 5B,"Band of two rows of frit beads around knees. Another band of the same beads round, hips",bad,,0.0,1,114A,Libn box,extended on back,hands near pelvis,,face westward,,7,stone bead,leg,2,0
+115_115A,141,115,A,0.7,N.W,in debris,Female,Child,,5C 13A,,very bad,,0.0,1,115A,In debris,,, and arms in another,skull collapsed,legs and chest in one place,5,,,0,1
+116_116A,142,116,A,0.5,N.W,libn box,Female,Adult,,690 6A;437 5A,,fair,,0.0,2,116A,Libn box,extended on back,,,face upward,,5,,,0,0
+116_116B,143,116,B,0.5,N.W,libn box,Male,Adult,,570 1A;12A,,bad,,0.0,2,116B,Libn box,extended on back,hands near pelvis,,face upwards,legs flexed,5,,,0,0
+117_117A,144,117,A,1.1,N.W,sealed libn box,Female,Child,86.0,511 5A;539 9A;452 8B;552 1B,,bad,,0.0,1,117A,Libn box,extended on back,,ribs and arms slightly disturbed,face upward,,5,,,0,0
+118_118A,145,118,A,0.4,N.W,sealed libn box,Female,Adult,160.0,498 6A;1B;13C,,,,0.0,1,118A,Libn box,extended on back,,left arm flexed,face westward,,5,,,0,0
+119_119A,146,119,A,1.5,N.W,libn box,Male,Infant,,588 1B,,very bad,,0.0,1,119A,Libn box,,,,fractional burial skull in NW,,5,,,0,0
+120_120A,147,120,A,2.25,N.W,libn box,Male,Adult,,,,bad,,0.0,1,120A,Libn box,extended on back,,skull east of the left arm,skull east of the left arm,lower jaw east of the left leg,5,,,0,0
+121_121A,148,121,A,0.6,N.W,in sand,Male,Adult,165.0,13E,,fair,,0.0,1,121A,In sand,extended on back,hands near pelvis,,face westward,,5,,,0,0
+122_122A,149,122,A,1.75,N.W,in sand,Female,Child,,898 12C;13B;647 4A,,bad,,0.0,1,122A,In sand,extended on back,,,face eastward,legs flexed,5,,,0,0
+123_123A,150,123,A,1.5,N.W,libn box,Male,Adult,170.0,5A;13C;1C,Stone dish beneath skull,fair,,0.0,1,123A,Libn box,extended on back,hands beside legs,,face eastward,hands beside legs,6,stone dish,head,1,0
+124_124A,151,124,A,1.5,N.W,libn box,Male,Infant,,,,bad,,0.0,1,124A,Libn box,extended on back,,,face upward,,5,,,0,0
+125_125A,152,125,A,0.3,N.W,libn platform,Female,Child,,687 3B;708 5A,,bad,,0.0,1,125A,Libn floor,extended on back,,,face upward,,5,,,0,0
+126_126A,153,126,A,0.3,,,Female,Child,,,,,,0.0,1,126A,,,,,,,5,,,0,1
+127_127A,154,127,A,0.3,,,Female,Child,,,,,,0.0,1,127A,,,,,,,5,,,0,1
+128_128A,155,128,A,2.5,N.W,,Female,Adult,,,,,,0.0,1,128A,,extended on back,hands near pelvis,,skull collapsed,,5,,,0,0
+129_129A,156,129,A,2,N.W,sealed libn box,Female,Child,60.0,532 4A,,bad,,0.0,1,129A,Libn box,extended on back,hands beside legs,,face westward,legs flexed,5,,,0,0
+130_130A,157,130,A,1.2,N.W,libn box,Female,Adult,,502 5A;582 1B;13E,,fair,,0.0,1,130A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+131_131A,158,131,A,1.2,N.W,in sand,Male,Adult,,459 5A;13A,,fair,,0.0,1,131A,In sand,extended on back,hands near pelvis,,face eastward,,5,,,0,0
+132_132A,159,132,A,1.8,N.W,sealed libn box,Female,Adult,,685 11B;686 1A;5D;10A,,fair,,0.0,1,132A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+133_133A,160,133,A,1.7,N.W,libn box,Female,Adult,160.0,13B;1C;5A,,fair,,0.0,1,133A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+134_134A,161,134,A,1.5,N.W,in sand,Female,Adult,165.0,480 5C;581 1C;13E;13E,,excellent,,0.0,1,134A,In sand,extended on back,hands beside legs,,face upward,hands beside legs,5,,,0,0
+135_135A,162,135,A,1.25,N.W,on sand,Male,Adult,184.0,585 13E;541 3B,,bad,,0.0,1,135A,In sand,extended on back,hands near pelvis,,face eastward,,5,,,0,0
+136_136A,163,136,A,1.25,N.W,libn box,Female,Adult,,458 6A;564 1B;608 13C,,bad,,0.0,1,136A,Libn box,extended on back,,,skull collapsed,legs extended,5,,,0,0
+137_137A,164,137,A,1,N.W,in debris,Female,Adult,,,,,,0.0,1,137A,In debris,,right hand near pelvis,,skull missing,legs extended,5,,,0,0
+138_138A,165,138,A,1.7,N.W,libn box,Female,Adult,175.0,444 5A;628 12A,,,,0.0,1,138A,Libn box,extended on back,left hand beside leg,,face upward,left hand beside leg,5,,,0,0
+139_139A,166,139,A,1,N.W,sealed libn box filled with sand,Female,Child,,440 3B;553 6A;1B,,fair,,0.0,1,139A,In sand,extended on back,hands beside legs,,face upward,hands beside legs,5,,,0,0
+140_140A,167,140,A,1.2,N.W,in sand,Female,Child,,6A;2A,,,,0.0,1,140A,In sand,extended on back,,,face upward,legs flexed,5,,,0,0
+141_141A,168,141,A,2.3,N.W,in sand,Male,Child,,,,,,0.0,1,141A,In sand,extended on back,hands beside legs,,face upwards,hands beside legs,5,,,0,1
+142_142A,169,142,A,1.25,N.W,,Male,Adult,165.0,560 5A;580 1B;586 13E,,,,0.0,1,142A,,extended on back,hands beside legs,,face upward,hands beside legs,5,,,0,0
+143_143A,170,143,A,2,N.W,in sand,Female,Adult,180.0,660 5A; 1B;449 13A,,fair,,0.0,1,143A,In sand,extended on back,,,face eastward,,5,,,0,0
+144_144A,171,144,A,0.8,N.W,libn box,Female,Adult,,5C;451 8B,,,,0.0,1,144A,Libn box,,,,,,5,,,0,0
+145_145A,172,145,A,1,N.W,libn box,Female,Adult,,576 6A;13C,,bad,,0.0,1,145A,Libn box,extended on back,hands near pelvis,,face upward,legs flexed,5,,,0,0
+146_146A,173,146,A,0.8,N.W,in debris,Female,Child,,,,,,0.0,1,146A,In debris,body to the left,hand near chin,right arm flexed,face eastward,,5,,,0,1
+147_147A ,174,147,A ,1.25,N.W,in sand,Female,Adult,,468 8C;522 7B,,bad,,0.0,1,147A ,In sand,extended on back,hands near pelvis,,face upward,legs flexed,5,,,0,0
+148_148A,175,148,A,2,N,in sand,Female,Child,,13C,,bad,,0.0,1,148A,In sand,extended on back,,,skull missing,,5,,,0,0
+149_149A,176,149,A,0.5,N.W,"on libn platform, covered with sand",Female,Child,108.0,5C;13E,Skull of an animal near right foot,bad,,0.0,1,149A,In sand,extended on back,,,face westward,,6,animal remains,feet,1,0
+150_150A,177,150,A,2,N.W,in sand,Male,Adult,,580 5C;8A;13D,,bad,,0.0,1,150A,In sand,extended on back,hands near pelvis,,skull collapsed,,5,,,0,0
+151_151A,178,151,A,1.25,N.W,in debris,Male,Child,,577 5A;9C;1C,,bad,,0.0,2,151A,In debris,extended on back,,,skull missing,,5,,,0,0
+151_151B,179,151,B,1.25,N.W,in debris,Male,Adult,165.0,,,,,0.0,2,151B,In debris,extended on back,hands near pelvis,,skull missing,legs flexed,5,,,0,0
+152_152A,180,152,A,1.5,N.W,in sand,Female,Adult,150.0,13A;5B;466 5B,,fair,,0.0,1,152A,In sand,extended on back,hands near pelvis,,face upward,,5,,,0,0
+153_153A,181,153,A,2,N.W,in sand,Female,Child,89.0,441 6A;11A;5C,,fair,,0.0,1,153A,In sand,extended on back,,,face upward,legs crossed,5,,,0,0
+154_154A,182,154,A,0.3,,,Male,Child,,691 12C,,,,0.0,1,154A,,,,,,,5,,,0,1
+155_155A,183,155,A,1,N.W,libn box,Female,Adult,,13C,,bad,,0.0,2,155A,Libn box,extended on back,left hand near pelvis,,,,5,,,0,0
+155_155B,184,155,B,1,N.W,libn box,Male,Adult,,12C;5C,,bad,,0.0,2,155B,Libn box,,,,,,5,,,0,0
+156_156A,185,156,A,0.3,,,Female,Child,,,,,,0.0,1,156A,,,,,,,5,,,0,1
+157_157A,186,157,A,1.2,N.W,libn box,Female,Child,100.0,482 6A;470 1C;636 12A,,fair,,0.0,1,157A,Libn box,extended on back,hands near pelvis,,face upward,legs flexed,5,,,0,0
+158_158A,187,158,A,1.8,N.W,libn box,Female,Adult,150.0,607 1A;571 4B;5C,,,,0.0,1,158A,Libn box,extended on back,hands beside legs,,face eastward,hands beside legs,5,,,0,0
+159_159A,188,159,A,1.2,N.W,libn box,Male,Elderly,170.0,501 7A;524 1A;599 12A,,bad,,0.0,1,159A,Libn box,extended on back,right hand beside leg,,face westward,right hand beside leg,5,,,0,0
+160_160A,189,160,A,0.3,,,Female,Child,,,,,,0.0,1,160A,,,,,,,5,,,0,1
+161_161A,190,161,A,2,N.W,libn box,Male,Adult,160.0,5C;1B;597 13D,,bad,,0.0,1,161A,Libn box,extended on back,right hand near pelvis,,face eastward,,5,,,0,0
+162_162A,191,162,A,1.1,N.W,sealed libn box,Male,Adult,165.0,692 6B;700 5C;1B,,fair,,0.0,1,162A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+163_163A,192,163,A,2.25,N.W,libn box,Male,Youth,,1B;3B;6A,,fair,,0.0,1,163A,Libn box,extended on back,,,face westward,legs flexed,5,,,0,0
+164_164A,193,164,A,0.8,N.W,libn box,Male,Adult,,6D,,,,0.0,2,164A,Libn box,extended on back,,,face upward,,5,,,0,0
+164_164B,194,164,B,0.8,N.W,libn box,Female,Adult,,,,,,0.0,2,164B,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+165_165A,195,165,A,1.25,N.W,libn box,Male,Adult,160.0,644 1B,,,,0.0,1,165A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+166_166A,196,166,A,1,N.W,in sand,Female,Child,,,,,,0.0,1,166A,In sand,extended on back,,,face westward,,5,,,0,1
+167_167A,197,167,A,1.8,N.W,in sand,Female,Child,,559 1C;507 3A,,,,0.0,1,167A,In sand,extended on back,hand near chin,,face eastward,,5,,,0,0
+168_168A,198,168,A,0.2,N.W,on debris,Female,Adult,,,,,,0.0,1,168A,In debris,extended on back,hands on chest,,,legs flexed,5,,,0,0
+169_169A,199,169,A,2,E,in sand,Male,Infant,,538 12A;574 4A;7D,,,,0.0,1,169A,In sand,extended on back,,,face upward,,5,,,0,0
+170_170A,200,170,A,2,N.W,on sand,Female,Adult,,486 6A;561 1B,,bad,,0.0,1,170A,In sand,extended on back,hands beside legs,,face upward,hands beside legs,5,,,0,0
+171_171A,201,171,A,1.51,N.W,libn box,Female,Adult,155.0,6B;1B12B,,fair,,0.0,1,171A,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+172_172A,202,172,A,1.4,N.W,libn box,Female,Adult,160.0,493 6A;651 1B;172 13C;648 13D,,bad,,0.0,1,172A,Libn box,extended on back,left hand beside leg,,face eastward,left hand beside leg,5,,,0,0
+173_173A,203,173,A,2,N.W,in sand,Female,Adult,172.0,514 7A;591 1B,,bad,,0.0,1,173A,In sand,,hands beside legs,,face eastward,hands beside legs,5,,,0,0
+174_174A,204,174,A,1.8,N.W,libn box,Female,Child,,540 5A;573 4A;7A,,bad,,0.0,1,174A,Libn box,extended on back,,,,,5,,,0,0
+175_175A,205,175,A,1.4,N.W,sealed libn box,Female,Adult,158.0,13A;7A,,,,0.0,1,175A,Libn box,extended on back,hands near pelvis,,face westward,,5,,,0,0
+176_176A,206,176,A,1.4,N.W,libn floor,Female,Child,,4A;4A;456 6B;12B,,,,0.0,1,176A,Libn floor,extended on back,,,face upward,,5,,,0,0
+177_177A,207,177,A,1.4,N.W,libn floor,Female,Adult,154.0,,,bad,,0.0,1,177A,Libn floor,extended on back,,left arm straight,,,5,,,0,1
+178_178A,208,178,A,1.6,N.W,,Female,Adult,160.0,572 8C,,fair,,0.0,1,178A,,extended on back,hands beside legs,,face eastward,hands beside legs,5,,,0,0
+179_179A,209,179,A,1.3,N.W,libn box,Female,Youth,108.0,698 5C;704 13E;1B,,good,,0.0,1,179A,Libn box,extended on back,left hand beside leg,,face upward,left hand beside leg,5,,,0,0
+180_180A,210,180,A,1.4,N.W,libn box,Female,Adult,,,,bad,,0.0,2,180A,Libn box,,,,,,5,,,0,1
+180_180B,211,180,B,1.4,N.W,libn box,Female,Adult,,,,bad,,0.0,2,180B,Libn box,extended on back,,,face upward,,5,,,0,0
+181_181A,212,181,A,1.7,N.W,libn box,Female,Adult,150.0,693 1C;518 6A;518 5A;595 12A,,fair,,0.0,1,181A,Libn box,extended on back,right hand near pelvis,,face upward,,5,,,0,0
+182_182A,213,182,A,1.4,N.W,libn box,Female,Child,110.0,614 12A;8B;5C,,bad,,0.0,1,182A,Libn box,extended on back,,,face upward,,5,,,0,0
+183_183A,214,183,A,1.2,N.W,in debris,Female,Adult,,6A;12C,,,,0.0,2,183A,In debris,extended on back,,,,,5,,,0,0
+183_183B,215,183,B,1.2,N.W,in debris,Male,Adult,158.0,13A;1B,,,,0.0,2,183B,In debris,extended on back,hands near pelvis,,face upward,,5,,,0,0
+184_184A,216,184,A,1,N.W,shaft in an older box,Female,Child,,696 5A;13E,,bad,,2.0,1,184A,Shaft tomb,extended on back,,,face westward,legs flexed,5,,,0,0
+185_185A,217,185,A,1,N.W,libn box,Male,Youth,,,,,,0.0,1,185A,Libn box,extended on back,,,,,5,,,0,0
+186_186A,218,186,A,1.1,N.W,libn box,Male,Adult,,701 12B;703 5C,,bad,,0.0,2,186A,Libn box,,,,,,5,,,0,0
+186_186B,219,186,B,1.1,N.W,libn box,Female,Adult,131.0,4B,,,,0.0,2,186B,Libn box,extended on back,hands near pelvis,,face upward,,5,,,0,0
+187_187A,220,187,A,1.35,,,Female,Adult,,,,,,0.0,1,187A,,,,,,,5,,,0,1
+188_188A,221,188,A,1.4,N.W,sealed libn box,Female,Elderly,,688 2B;5A;1A,,,,0.0,1,188A,Libn box,extended on back,,,face upward,,5,,,0,0
+189_189A,222,189,A,1,N.W,libn box,Female,Adult,,5A;13E;12C,,fair,,0.0,2,189A,Libn box,extended on back,hand extended,,face upward,,5,,,0,0
+189_189B,223,189,B,1,N.W,libn box,Female,Adult,,,,,,0.0,2,189B,Libn box,,,,skull near the left shoulder,,5,,,0,0
+190_190A,224,190,A,0.3,,,Female,Child,,,,,,0.0,1,190A,,,,,,,5,,,0,1
+191_191A,225,191,A,1.5,N.W,libn box,Male,Infant,,,,,,0.0,1,191A,Libn box,extended on back,,,,,5,,,0,1
+192_192A,226,192,A,1.8,N.W,libn box,Female,Adult,165.0,,,very bad,,0.0,1,192A,Libn box,extended on back,, left arm straight,face eastward,,5,,,0,0
+193_193A,227,193,A,1.3,N.W,libn box,Female,Adult,,5C;1B;13C;13A,,,,0.0,1,193A,Libn box,extended on back,,arms straight,face upward,,5,,,0,0
+1_2020_1_2020A,228,1_2020,A,0.75,N.W,,Female,Child,,11A,one glass to the right of the head,bad,,0.0,1,1_2020A,,,,,,,6,one glass to the right of the head,head,1,1
+2_2020_2_2020A,229,2_2020,A,0.75,N.W,libn box,Female,Adult,,"13E;13E, 11A;11A; 9A",two jars; two cups inside; one painted jar poss. type 9A,fair,,0.0,1,2_2020A,Libn box,extended on back, Right hand beside leg ,,,,10,two jars; two cups inside; one painted jar poss. type 9A,two jars; two cups inside; one painted jar poss. type 9A,5,0
+3_2020_3_2020A,230,3_2020,A,0.75,N.W,libn box,Female,Adult,,11A; 5A; 13A,one cup; one dish; one jar,bad,,0.0,1,3_2020A,Libn box,extended on back,,right arm straight,,legs flexed,8,one cup; one dish; one jar,one cup;dish; one jar,3,0
+4_2020_4_2020A,231,4_2020,A,0.9,N.W,libn box; libn brick under head,Male,Adult,,Fig.80-10; 5A; 13E,one cup; one jar; one dish,fair,,0.0,1,4_2020A,Libn box,extended on back, Right hand beside leg ,,,,8,one cup; one jar; one dish,one cup; one jar;dish,3,0
+5_2020_5_2020A,232,5_2020,A,0.9,N.W,libn box,Male,Adult,3.2,27E; 13A;13E; 11A,one dish; one jar; one cup,fair,,0.0,1,5_2020A,Libn box,extended on back,hands beside legs,,,,8,one dish; one jar; one cup,dish; one jar; one cup,3,0
+6_2020_6_2020A,233,6_2020,A,0.8,N.W,libn box,Female,Elderly,,,,bad,,0.0,1,6_2020A,Libn box,,,,,,5,,,0,1
+7_2020_7_2020A,234,7_2020,A,1,N.W,on sand,Female,Adult,,"11A, 13E",one jar; one cup,good,,0.0,1,7_2020A,In sand,extended on back,,right arm straight,,legs extended,7,one jar; one cup,one jar; one cup,2,0
+8_2020_8_2020A,235,8_2020,A,0.75,N.W,on sand,Female,Adult,,,,good,,0.0,1,8_2020A,In sand,extended on back,,,,legs extended,5,,,0,1
+9_2020_9_2020A,236,9_2020,A,0.9,N.W,on sand,Subadult,Infant,,,,good,,0.0,1,9_2020A,In sand,body to the left,left hand beside leg,,legs flexed,left hand beside leg,5,,,0,1
+10_2020_10_2020A,237,10_2020,A,0.6,N.W,libn box,Female,Adult,,,,bad,,0.0,1,10_2020A,Libn box,extended on back,left hand beside leg,,,legs extended,5,,,0,0

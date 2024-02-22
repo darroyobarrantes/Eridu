@@ -88,6 +88,9 @@ df = df.sort_index(ascending=False)
 
 plt.figure(figsize=(10,8))
 sns.heatmap(df, annot=True, cmap='gist_gray')
+# Guardar el gráfico como un archivo PNG
+plt.savefig('Pottery_overlap_heatMap.png', dpi=2160)  # Ajusta 'dpi' para cambiar la resolución de la imagen
+
 plt.show()
 
 df = df.fillna(df.mean())

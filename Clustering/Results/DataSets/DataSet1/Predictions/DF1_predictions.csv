@@ -1,0 +1,4 @@
+,kmodes,kmeans,kprototypes
+elbow,2,2,2
+silhouette,2,2,2
+gap_stat,4,4,4
